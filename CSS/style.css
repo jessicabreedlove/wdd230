@@ -1,0 +1,42 @@
+body {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+header,
+main,
+footer {
+  margin: 1.25em auto;
+  max-width: 760px;
+}
+
+header,
+footer {
+  background-color: #2c6e49;
+  color: #fff;
+  text-align: center;
+  padding: 1.1rem;
+}
+
+header {
+  padding: 1.3rem;
+  display: grid;
+  grid-template-columns: repeat (4, 1fr);
+  grid-template-rows: repeat (4, 1fr);
+  align-items: center;
+  justify-content: space-around;
+}
+
+header img {
+  float: left;
+  border: 1px solid #000;
+  grid-column: 1/4;
+  grid-row: 1/4;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  float: right;
+  grid-column: 2/4;
+  grid-row: 1/4;
+}
