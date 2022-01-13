@@ -8,6 +8,7 @@ main,
 footer {
   margin: 1.25em auto;
   max-width: 760px;
+  font-family: "Roboto Slab", serif;
 }
 
 header,
@@ -16,6 +17,15 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1.1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Shippori Antique", sans-serif;
 }
 
 header {
