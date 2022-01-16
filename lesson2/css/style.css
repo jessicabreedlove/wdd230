@@ -1,12 +1,67 @@
-body {
+p {
   font-family: "PT Serif", serif;
+  padding: 1em;
+  text-align: center;
+  margin: 1em 3em;
 }
 
-h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: "Lato", sans-serif;
+  color: black;
+  margin-top: 2em;
+  margin-bottom: 0;
+  line-height: 1.7em;
+}
+
+h1 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 5em;
+}
+
+.card h2 {
+  font-size: 2.5em;
+}
+
+header,
+footer {
+  grid-template-columns: 4 * 1fr;
+  text-align: center;
+  margin: 30px;
+  color: white;
+}
+
+body {
+  background-image: url("../images/leaf-horizontal.jpg");
+}
+
+main {
+  grid-template-columns: 1fr * 4;
+  grid-template-rows: 1fr * 4;
+  max-width: 760px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #a3b18a;
+  grid-column: 1/1;
+  justify-content: space-around;
+  text-align: center;
+}
+
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  max-width: 100%;
+}
+
+.card-head {
+  background-color: white;
+  padding-top: auto;
 }
