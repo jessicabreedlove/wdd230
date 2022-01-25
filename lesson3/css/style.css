@@ -28,7 +28,6 @@ footer {
   flex-flow: column;
   align-items: center;
   padding: 10px;
-  justify-content: center;
 }
 
 main {
@@ -41,17 +40,28 @@ a {
 
 nav ul {
   display: flex;
+  flex-direction: row;
   list-style: none;
   font-family: "Barlow Semi Condensed", sans-serif;
   overflow: hidden;
   font-size: 1.5em;
-  justify-content: space-evenly;
+}
+
+/* for medium and large use flex- driection row. Or display grid */
+
+nav li {
+  display: list-item;
+}
+
+nav ul li {
+  flex: 1 1 auto;
 }
 
 nav li a {
   display: block;
   text-align: center;
   color: white;
+  padding: 20px;
 }
 
 nav li a:hover {
