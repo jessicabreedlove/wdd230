@@ -1,0 +1,13 @@
+@media only screen and (min-width: 650px) {
+  header img {
+    max-width: 10em;
+  }
+
+  nav li a {
+    padding: 10px;
+  }
+
+  main {
+    align-items: center;
+  }
+}

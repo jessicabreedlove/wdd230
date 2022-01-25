@@ -1,0 +1,9 @@
+@media only screen and (min-width: 390px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li a {
+    padding: 5px;
+  }
+}
