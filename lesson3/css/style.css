@@ -9,3 +9,58 @@ dark blue/green: #5e6c6a
 light blue: #e4f9f5
 
 */
+
+body {
+  max-width: 780px;
+  margin: 1.25em auto;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+header img {
+  max-width: 15em;
+}
+
+header,
+footer {
+  background-color: #5e6c6a;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+}
+
+main {
+  background-color: #e4f9f5;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  overflow: hidden;
+  font-size: 1.5em;
+  justify-content: space-evenly;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: #5e6c6a;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
