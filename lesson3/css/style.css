@@ -14,6 +14,7 @@ body {
   max-width: 780px;
   margin: 1.25em auto;
   font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #606c38;
 }
 
 header img {
@@ -22,7 +23,7 @@ header img {
 
 header,
 footer {
-  background-color: #5e6c6a;
+  background-color: #283618;
   color: white;
   display: flex;
   flex-flow: column;
@@ -31,7 +32,9 @@ footer {
 }
 
 main {
-  background-color: #e4f9f5;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -65,12 +68,16 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: white;
-  color: #5e6c6a;
+  background-color: #bc6c25;
+  color: black;
 }
 
 h1,
 h2,
 h3 {
   font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.color-scheme {
+  max-width: 40em;
 }
