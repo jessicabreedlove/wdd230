@@ -47,8 +47,6 @@ nav ul {
   font-size: 1.5em;
 }
 
-/* for medium and large use flex- driection row. Or display grid */
-
 nav li {
   display: list-item;
 }
