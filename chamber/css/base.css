@@ -9,6 +9,39 @@ html {
   box-sizing: border-box;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0.5em;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+}
+
+/* main div:nth-child(2) {
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+main div:nth-child(2) {
+  grid-column: 2/2;
+} */
+
+main div {
+  background-color: beige;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+
+header img,
+footer img {
+  max-width: 15em;
+}
+
 nav button {
   margin: 0.2rem 2vw;
   background-color: transparent;
@@ -33,6 +66,8 @@ nav ul li a {
   text-decoration: none;
   color: white;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  /* use justify-content here if you want to change the orientation of the menu */
 }
 
 nav ul li a:hover {
