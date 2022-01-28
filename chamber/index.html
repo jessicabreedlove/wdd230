@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>PG Chamber of Commerce</title>
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/medium.css" />
     <link rel="stylesheet" href="./css/large.css" />
+    <meta
+      name="description"
+      content="Jessica Reece site for Pleasant Grove, UT Chamber of Commerce WDD 230"
+    />
   </head>
   <body>
     <header>
@@ -18,7 +22,8 @@
       />
       <h1>Pleasant Grove Chamber of Commerce</h1>
       <nav>
-        <ul>
+        <button id="ham-btn"><span>&#9776</span><span>X</span></button>
+        <ul id="primary-nav">
           <li><a href="http://#">Discover</a></li>
           <li><a href="http://#">Directory</a></li>
           <li><a href="http://#">Join</a></li>
@@ -35,6 +40,28 @@
       <div><p>Event</p></div>
       <div><p>Weather</p></div>
     </main>
-    <footer></footer>
+    <footer>
+      <img
+        src="./images/pleasant-grove.png"
+        alt="PG Chamber of Commerce Logo"
+      />
+      <div>
+        <ul>
+          <li>Pleasant Grove Chamber of Commerce</li>
+          <li>1000 N 350 E</li>
+          <li>Plesant Grove, UT 56789</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li>info@pgcommerce.org</li>
+          <li>+1(801) 324-5678</li>
+          <li>Location Map</li>
+        </ul>
+      </div>
+      &copy;2022 PG Chamber of Commerce | Jessica Breedlove Reece | WDD 230
+      Project | Last Modification: holder
+    </footer>
+    <script src="./js/scripts.js"></script>
   </body>
 </html>
