@@ -14,7 +14,7 @@ nav button {
   background-color: transparent;
   border: none;
   font-size: 2rem;
-  color: #555;
+  color: #bc6c25;
 }
 
 nav {
@@ -44,24 +44,20 @@ nav ul li.active a {
   color: black;
 }
 
-nav ul {
-  display: none;
-}
-
 nav ul.open {
   display: block;
 }
 
-#ham-btn span:nth-child(1) {
+#hamBtn span:nth-child(1) {
   display: block;
 }
-#ham-btn span:nth-child(2) {
+#hamBtn span:nth-child(2) {
   display: none;
 }
 
-#ham-btn.open span:nth-child(1) {
+#hamBtn.open span:nth-child(1) {
   display: none;
 }
-#ham-btn.open span:nth-child(2) {
+#hamBtn.open span:nth-child(2) {
   display: block;
 }
