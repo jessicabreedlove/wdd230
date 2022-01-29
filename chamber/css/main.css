@@ -62,7 +62,7 @@ nav ul {
 
 nav ul li a {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 2vw;
   text-decoration: none;
   color: white;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
@@ -80,4 +80,8 @@ nav ul li.active a {
 
 nav ul.open {
   display: block;
+}
+
+nav ul {
+  display: none;
 }

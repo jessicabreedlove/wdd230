@@ -1,13 +1,26 @@
 @media only screen and (min-width: 35rem) {
-  nav ul#primaryNav {
-    display: flex;
-    margin-left: 2vw;
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
-    /* use justify-content here if you want to change the orientation of the menu */
-  }
-
   nav ul li a {
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul.open {
+    display: block;
+  }
+
+  #hamBtn span:nth-child(1) {
+    display: block;
+  }
+  #hamBtn span:nth-child(2) {
+    display: none;
+  }
+
+  #hamBtn.open span:nth-child(1) {
+    display: none;
+  }
+  #hamBtn.open span:nth-child(2) {
+    display: block;
   }
 }
