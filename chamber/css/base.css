@@ -3,22 +3,18 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+body {
+  font-family: "Lora", serif;
+  margin: 1.25em auto;
+  max-width: 760px;
+  background-color: #606c38;
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 0.5em;
-}
-
-footer {
-  display: flex;
-  align-items: center;
+  background-color: white;
 }
 
 /* main div:nth-child(2) {
@@ -39,7 +35,11 @@ main div {
 
 header img,
 footer img {
-  max-width: 15em;
+  max-width: 10em;
+}
+
+nav {
+  background-color: #283618;
 }
 
 nav button {
@@ -48,10 +48,7 @@ nav button {
   border: none;
   font-size: 2rem;
   color: #bc6c25;
-}
-
-nav {
-  background-color: #283618;
+  display: none;
 }
 
 nav ul {
@@ -80,4 +77,46 @@ nav ul li.active a {
 
 nav ul.open {
   display: block;
+}
+
+nav ul#primaryNav {
+  display: flex;
+  margin-left: 2vw;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+  /* use justify-content here if you want to change the orientation of the menu */
+}
+
+.name-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 3rem;
+}
+
+header,
+footer {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #283618;
+  color: white;
+}
+
+footer {
+  padding: 2em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 20px;
 }
