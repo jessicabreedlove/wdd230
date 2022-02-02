@@ -1,45 +1,25 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-body {
-  font-family: "Lora", serif;
-  margin: 1.25em auto;
-  max-width: 760px;
-  background-color: #606c38;
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  background-color: white;
+header img {
+  max-width: 8em;
+  padding-top: 2em;
 }
 
-/* main div:nth-child(2) {
-  grid-column: 2/2;
-  grid-row: 1/2;
-}
-main div:nth-child(2) {
-  grid-column: 2/2;
-} */
-
-main div {
-  background-color: beige;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 20px;
-}
-
-header img,
-footer img {
-  max-width: 10em;
-}
-
-nav {
+header {
   background-color: #283618;
+  color: white;
+  text-align: center;
 }
 
 nav button {
@@ -48,7 +28,11 @@ nav button {
   border: none;
   font-size: 2rem;
   color: #bc6c25;
-  display: none;
+}
+
+nav {
+  background-color: #606c38;
+  text-align: right;
 }
 
 nav ul {
@@ -59,64 +43,39 @@ nav ul {
 
 nav ul li a {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.8rem 2vw;
   text-decoration: none;
-  color: white;
+  color: #333;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
-  /* use justify-content here if you want to change the orientation of the menu */
 }
 
 nav ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 nav ul li.active a {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: black;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+nav ul {
+  display: none;
 }
 
 nav ul.open {
   display: block;
 }
 
-nav ul#primaryNav {
-  display: flex;
-  margin-left: 2vw;
-  border-left: 1px solid rgba(0, 0, 0, 0.3);
-  /* use justify-content here if you want to change the orientation of the menu */
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
 }
 
-.name-logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
 }
-
-ul {
-  list-style-type: none;
-}
-
-h1 {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 3rem;
-}
-
-header,
-footer {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  background-color: #283618;
-  color: white;
-}
-
-footer {
-  padding: 2em;
-}
-
-.contact {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-bottom: 20px;
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
 }

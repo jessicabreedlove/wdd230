@@ -37,14 +37,6 @@ header {
   justify-content: space-around;
 }
 
-header img {
-  float: left;
-  border: 1px solid #000;
-  grid-column: 1/4;
-  grid-row: 1/4;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-}
-
 header h1 {
   float: right;
   grid-column: 2/4;

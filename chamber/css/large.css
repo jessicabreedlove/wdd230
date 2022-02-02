@@ -1,11 +1,1 @@
-@media only screen and (min-width: 64rem) {
-  * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
 
-  nav ul li a {
-    padding: 0.5rem 1rem;
-  }
-}
