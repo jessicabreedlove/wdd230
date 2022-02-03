@@ -82,7 +82,8 @@ nav ul.open {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
@@ -134,6 +135,40 @@ nav {
 
 .socialmedia {
   margin-left: 5px;
+}
+
+main {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; */
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+  grid-gap: 5px;
+  background-color: #606c38;
+  font-family: "Lora", serif;
+  text-align: center;
+}
+
+main div {
+  background-color: #f7f0e3;
+}
+
+main ul {
+  list-style: none;
+}
+
+.join {
+  display: none;
+}
+
+.spotlights {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.spotlight-3 {
+  display: none;
 }
 
 footer {
