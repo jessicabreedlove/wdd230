@@ -22,21 +22,44 @@
   </head>
   <body>
     <header>
-      <div class="name-logo">      
+      <div class="top">
         <img
         src="./images/pleasant-grove-lg.png"
         alt="PG Chamber of Commerce Logo"
       />
-      <h1>Pleasant Grove Chamber of Commerce</h1></div>
-      <nav>
-        <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
-        <ul id="primaryNav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Directory</a></li>
-          <li><a href="#">Join</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      <h1>Pleasant Grove <br><span class="byline">Chamber of Commerce</span></h1>
+      
+      <div class="social">
+        <a
+        class="socialmedia"
+        target="_blank"
+        href="https://www.instagram.com"
+        ><img
+          class="icon"
+          src="https://cdn.glitch.me/6aae729e-f8ae-4ef6-a18f-3d5f98b1c058%2Finstagram.png?v=1633745613871"
+      /></a>
+  
+      <a class="socialmedia" target="_blank" href="https://www.facebook.com"
+        ><img
+          class="icon"
+          src="https://cdn.glitch.me/6aae729e-f8ae-4ef6-a18f-3d5f98b1c058%2Ffacebook.png?v=1633745616466"
+      /></a>
+      </div>
+      
+     
+    <nav>
+      <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
+      <ul id="primaryNav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+      </div>
+
+    <p class="date"></p>
+
     </header>
     <main>
       <div><p>Event</p></div>
@@ -69,7 +92,7 @@
         </ul>
       </div>
       <div>&copy;2022 PG Chamber of Commerce | Jessica Breedlove Reece | WDD 230
-        Project | Last Modification: holder</div>
+        Project | Last Modification: <p id="lastmod"></p></div>
     </footer>
     <script src="./js/scripts.js"></script>
   </body>
