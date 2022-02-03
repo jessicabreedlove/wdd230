@@ -137,28 +137,20 @@ nav {
 }
 
 footer {
-  display: grid;
-  grid-template-rows: 1fr 3fr 1fr;
+  display: block;
   background-color: #283618;
   color: white;
   font-family: "Barlow Semi Condensed", sans-serif;
+  text-align: center;
 }
 
 footer img {
   max-width: 5em;
-  grid-row: 1/2;
-  justify-self: center;
   margin-top: 10px;
 }
 
 footer li {
   list-style: none;
-}
-
-.contact {
-  grid-row: 2/3;
-  text-align: center;
-  align-self: center;
 }
 
 .address {
@@ -167,11 +159,8 @@ footer li {
 }
 
 .foot {
-  grid-row: 3/4;
-  text-align: center;
-  line-height: 1.5em;
-  align-self: center;
-  margin-top: 0;
+  line-height: 1.3em;
+  padding-bottom: 5px;
 }
 
 .foot-name {
