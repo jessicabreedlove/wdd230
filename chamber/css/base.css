@@ -97,6 +97,7 @@ h3 {
   padding: 0.75rem;
   background-color: rgba(0, 0, 0, 0.2);
   text-align: center;
+  font-size: 1.3em;
 }
 
 .top {
@@ -138,10 +139,6 @@ nav {
 }
 
 main {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center; */
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
   grid-gap: 5px;
@@ -152,6 +149,9 @@ main {
 
 main div {
   background-color: #f7f0e3;
+  /* padding: 2px; */
+  border: 3px solid #606c38;
+  padding: 10px;
 }
 
 main ul {
@@ -163,9 +163,17 @@ main ul {
 }
 
 .spotlights {
+  grid-gap: 10px;
+}
+
+/* .spotlights {
   display: grid;
   grid-template-rows: 1fr 1fr;
-}
+} */
+/* 
+.spotlight-1 {
+  border: 1px solid black;
+} */
 
 .spotlight-3 {
   display: none;

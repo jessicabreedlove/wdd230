@@ -1,1 +1,42 @@
+@media only screen and (min-width: 64rem) {
+  /* main {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: none;
+  } */
+/* 
+  .grid-col-1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
 
+  .hero {
+    grid-row: none;
+    grid-column: none;
+  }
+
+  .news {
+    grid-row: none;
+    grid-column: none;
+  }
+
+  .spotlights {
+    grid-row: none;
+    grid-column: none;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+  }
+/* 
+  .spotlight-1 {
+    grid-column: none;
+  }
+
+  .spotlight-2 {
+    grid-column: none;
+  }
+
+  .join {
+    /* display: block; */
+    /* grid-row: none;
+    grid-column: none;
+  } */ 
+}
