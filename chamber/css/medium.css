@@ -36,4 +36,21 @@
     grid-row: 4/5;
     grid-column: 1/3;
   }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+  }
+
+  footer img {
+    grid-column: 1/2;
+    margin-top: none;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .address {
+    grid-column: 2/3;
+  }
 }
