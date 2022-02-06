@@ -139,6 +139,19 @@ nav {
   margin-left: 5px;
 }
 
+.banner {
+  position: absolute;
+  background-color: #bc6c25;
+  color: white;
+  padding: 2px;
+  font-size: 15px;
+  font-weight: 400;
+  top: 52px;
+  right: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 30px #333;
+}
+
 main {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
@@ -166,15 +179,6 @@ main ul {
 .spotlights {
   grid-gap: 10px;
 }
-
-/* .spotlights {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-} */
-/* 
-.spotlight-1 {
-  border: 1px solid black;
-} */
 
 .spotlight-3 {
   display: none;
