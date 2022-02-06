@@ -6,6 +6,42 @@
     margin-right: 35px;
   }
 
+  header img {
+    max-width: 15em;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  .socialmedia img {
+    max-width: 50px;
+  }
+
+  nav {
+    font-size: 30px;
+    background-color: #606c38;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .date {
+    margin: 25px 50px;
+    font-size: 2em;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  nav {
+    grid-column: 2/4;
+    align-self: center;
+    justify-self: start;
+  }
+
   .spotlights {
     grid-row: 1/4;
     grid-column: 4/5;
