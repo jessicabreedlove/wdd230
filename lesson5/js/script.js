@@ -27,43 +27,60 @@ function clicked() {
   let chapter = input.value;
   input.value = "";
 
+  const listItem = document.createElement("li");
+  const scrip = document.createElement("span");
+  const removeBtn = document.createElement("button");
 
-  do {
-    const listItem = document.createElement("li");
-    const scrip = document.createElement("span");
-    const removeBtn = document.createElement("button");
+  listItem.appendChild(scrip);
+  scrip.textContent = chapter;
+  listItem.appendChild(removeBtn);
+  removeBtn.textContent = "X";
+  list.appendChild(listItem);
 
-    listItem.appendChild(scrip);
-    scrip.textContent = chapter;
-    listItem.appendChild(removeBtn);
-    removeBtn.textContent = "X";
-    list.appendChild(listItem);
+  removeBtn.addEventListener("click", remove);
 
-    removeBtn.addEventListener("click", remove);
+  function remove() {
+    list.removeChild(listItem);
+  }
+  input.focus();
+}
 
-    function remove() {
-      list.removeChild(listItem);
-    }
-  } while (input.value !== "");
+// do {
+//   const listItem = document.createElement("li");
+//   const scrip = document.createElement("span");
+//   const removeBtn = document.createElement("button");
 
-  // for (let i = 0; i < chapter.length; i++)
-  //   if (input !== "") {
-  //     const listItem = document.createElement("li");
-  //     const scrip = document.createElement("span");
-  //     const removeBtn = document.createElement("button");
+//   listItem.appendChild(scrip);
+//   scrip.textContent = chapter;
+//   listItem.appendChild(removeBtn);
+//   removeBtn.textContent = "X";
+//   list.appendChild(listItem);
 
-  //     listItem.appendChild(scrip);
-  //     scrip.textContent = chapter;
-  //     listItem.appendChild(removeBtn);
-  //     removeBtn.textContent = "X";
-  //     list.appendChild(listItem);
+//   removeBtn.addEventListener("click", remove);
 
-  //     removeBtn.addEventListener("click", remove);
+//   function remove() {
+//     list.removeChild(listItem);
+//   }
+// } while (input.value !== "");
 
-  //     function remove() {
-  //       list.removeChild(listItem);
-  //     }
-  //   }
+// for (let i = 0; i < chapter.length; i++)
+//   if (input !== "") {
+//     const listItem = document.createElement("li");
+//     const scrip = document.createElement("span");
+//     const removeBtn = document.createElement("button");
 
-  // input.focus();
+//     listItem.appendChild(scrip);
+//     scrip.textContent = chapter;
+//     listItem.appendChild(removeBtn);
+//     removeBtn.textContent = "X";
+//     list.appendChild(listItem);
+
+//     removeBtn.addEventListener("click", remove);
+
+//     function remove() {
+//       list.removeChild(listItem);
+//     }
+//   }
+
+// input.focus();
 // }
