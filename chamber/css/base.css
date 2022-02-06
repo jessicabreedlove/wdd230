@@ -11,6 +11,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #283618;
+}
+
 header img {
   max-width: 5em;
   padding-top: 2em;
