@@ -17,6 +17,10 @@
   .socialmedia img {
     max-width: 50px;
   }
+  .social {
+    grid-column: 4/5;
+    justify-self: center;
+  }
 
   nav {
     font-size: 30px;
@@ -34,6 +38,13 @@
 
   h1 {
     font-size: 60px;
+  }
+
+  #banner {
+    font-size: 3em;
+    top: 150px;
+    padding: 5px;
+    max-width: 300px;
   }
 
   nav {
