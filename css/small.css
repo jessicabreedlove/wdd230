@@ -10,6 +10,9 @@ footer {
   max-width: 760px;
   font-family: "Roboto Slab", serif;
 }
+main ul {
+  list-style: none;
+}
 
 header,
 footer {

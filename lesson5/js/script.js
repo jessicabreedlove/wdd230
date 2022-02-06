@@ -27,7 +27,8 @@ function clicked() {
   let chapter = input.value;
   input.value = "";
 
-  if (input !== "") {
+
+  do {
     const listItem = document.createElement("li");
     const scrip = document.createElement("span");
     const removeBtn = document.createElement("button");
@@ -43,7 +44,26 @@ function clicked() {
     function remove() {
       list.removeChild(listItem);
     }
-  }
+  } while (input.value !== "");
 
-  input.focus();
-}
+  // for (let i = 0; i < chapter.length; i++)
+  //   if (input !== "") {
+  //     const listItem = document.createElement("li");
+  //     const scrip = document.createElement("span");
+  //     const removeBtn = document.createElement("button");
+
+  //     listItem.appendChild(scrip);
+  //     scrip.textContent = chapter;
+  //     listItem.appendChild(removeBtn);
+  //     removeBtn.textContent = "X";
+  //     list.appendChild(listItem);
+
+  //     removeBtn.addEventListener("click", remove);
+
+  //     function remove() {
+  //       list.removeChild(listItem);
+  //     }
+  //   }
+
+  // input.focus();
+// }
