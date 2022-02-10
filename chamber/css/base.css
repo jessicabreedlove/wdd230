@@ -144,7 +144,7 @@ nav {
   margin-left: 5px;
 }
 
-#banner {
+/* #banner {
   position: absolute;
   background-color: #bc6c25;
   color: white;
@@ -152,12 +152,11 @@ nav {
   font-size: 10px;
   font-weight: 100;
   top: 75px;
-  right: 10px;
+  left: 10px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 30px #333;
   max-width: 75px;
-  /* display: none; */
-}
+} */
 
 /* #banner.show {
   display: block;

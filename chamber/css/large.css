@@ -10,6 +10,13 @@
     max-width: 15em;
   }
 
+  header,
+  nav,
+  main,
+  footer {
+    max-width: 64rem;
+    margin: auto;
+  }
   nav button {
     display: none;
   }
@@ -40,12 +47,12 @@
     font-size: 60px;
   }
 
-  #banner {
+  /* #banner {
     font-size: 3em;
     top: 150px;
     padding: 5px;
     max-width: 300px;
-  }
+  } */
 
   nav {
     grid-column: 2/4;
