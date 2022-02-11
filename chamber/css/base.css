@@ -21,7 +21,7 @@ header img {
 }
 
 header {
-  /* background-color: #606c38; */
+  background-color: #606c38;
   background-image: url("../images/pg-mnt-1100.jpg");
   color: black;
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -53,6 +53,7 @@ nav ul li a {
   display: block;
   padding: 0.8rem 2vw;
   text-decoration: none;
+  background-color: #283618;
   color: white;
   border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
@@ -176,6 +177,15 @@ main {
   background-color: #606c38;
   font-family: "Lora", serif;
   text-align: center;
+}
+
+main figure.hero {
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+main figure.hero img {
+  width: 100%;
 }
 
 main div {
