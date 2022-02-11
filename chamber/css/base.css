@@ -21,8 +21,9 @@ header img {
 }
 
 header {
-  background-color: #606c38;
-  color: white;
+  /* background-color: #606c38; */
+  background-image: url("../images/pg-mnt-1100.jpg");
+  color: black;
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 10px;
   padding-bottom: 5px;
@@ -101,9 +102,11 @@ h3 {
   margin: 0.5rem;
   border: 1px solid #bbb;
   padding: 0.75rem;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #f7f0e3;
   text-align: center;
+  font-weight: 800;
   font-size: 1.3em;
+  opacity: 95%;
 }
 
 .top {
@@ -227,4 +230,10 @@ footer li {
 
 .foot-name {
   font-weight: 700;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
