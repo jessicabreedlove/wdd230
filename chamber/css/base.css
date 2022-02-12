@@ -218,10 +218,6 @@ main ul {
   display: none;
 }
 
-.spotlights {
-  grid-gap: 10px;
-}
-
 .spotlight-3 {
   display: none;
 }
