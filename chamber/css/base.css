@@ -174,7 +174,7 @@ main {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
   /* grid-gap: 5px; */
-  background-color: #606c38;
+  /* background-color: #606c38; */
   font-family: "Lora", serif;
   text-align: center;
   margin: 5px;
@@ -183,8 +183,10 @@ main {
 main figure.hero {
   width: 100%;
   margin: 0 0 0 0;
-  background-color: #606c38;
+  /* background-color: #606c38; */
   position: relative;
+  grid-row: 1/2;
+  align-self: center;
 }
 
 main figure.hero img {
@@ -193,10 +195,10 @@ main figure.hero img {
 
 #joinBtn {
   position: absolute;
-  top: 150px;
-  right: 55px;
+  top: 8.5rem;
+  right: 1rem;
   background-color: #bc6c25;
-  font-size: 1em;
+  font-size: 0.9em;
   color: white;
   padding: 0.6em;
 }
@@ -204,7 +206,7 @@ main figure.hero img {
 main div {
   background-color: #f7f0e3;
   /* padding: 2px; */
-  border: 3px solid #606c38;
+  /* border: 3px solid #606c38; */
   /* padding: 10px; */
 }
 
