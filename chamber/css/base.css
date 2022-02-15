@@ -180,7 +180,7 @@ main {
   margin: 5px;
 }
 
-main figure.hero {
+main picture.hero {
   width: 100%;
   margin: 0 0 0 0;
   /* background-color: #606c38; */
@@ -189,7 +189,7 @@ main figure.hero {
   align-self: center;
 }
 
-main figure.hero img {
+main picture.hero img {
   width: 100%;
 }
 
