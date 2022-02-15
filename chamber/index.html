@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PG Chamber of Commerce</title>
     <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="./css/base.css" />
-    <link rel="stylesheet" href="./css/medium.css" />
-    <link rel="stylesheet" href="./css/large.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Lora&display=swap" rel="stylesheet">
@@ -25,11 +25,11 @@
     <header>
       <div class="top">
         <img class="logo"
-        src="./images/pglogoblk.webp"
+        src="images/pglogoblk.webp"
         alt="PG Chamber of Commerce Logo"
       />
       <h1>Pleasant Grove <br><span class="byline">Chamber of Commerce</span></h1>
-      <p id="banner"></p>
+      <p id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
       <div class="social">
         <a
         class="socialmedia"
@@ -58,9 +58,9 @@
       </ul>
     </nav>
       </div>
-      <div >
-        <p id="joinchamber"></p>
-      </div>
+      <!-- <div >
+        <span id="joinchamber"></span>
+      </div> -->
     <p class="date"></p>
 
     </header>
@@ -74,12 +74,12 @@
         <source media="(min-width: 1024px)" srcset="flower-large.jpg">
         <img src="flower-large.jpg">
     </picture>-->
-          <img src="./images/wdd230-org.jpg" alt="hero in main pic"
+          <img src="images/wdd230-org.jpg" alt="hero in main pic"
           sizes="50vw"
           srcset="
-            ./images/hero-temp-200.jpg 200w,
-            ./images/hero-medium.jpg   800w,
-            ./images/hero-large.jpg 1100w
+            images/hero-temp-200.jpg 200w,
+            images/hero-medium.jpg   800w,
+            images/hero-large.jpg 1100w
           ">
           <button id="joinBtn">Join the Chamber</button>
         </picture>
@@ -87,14 +87,14 @@
       <div class="event grid-col-1">
         <h3>Ribbon Cutting</h3>
         <picture>
-          <img src="./images/icons8-ribbon-64.png" alt="ribbon icon">
+          <img src="images/icons8-ribbon-64.png" alt="ribbon icon">
         </picture>
         <p>Join us for the grand opening of the new Pleasant Grove book exchange!</p>
       </div>
       <div class="weather grid-col-1">
         <h3>Weather</h3>
         <picture>
-          <img src="./images/sun-48.png" alt="sun">
+          <img src="images/sun-48.png" alt="sun">
         </picture>
         <p>Sunny</p>
         <p>Currently: <span id="t">65</span>&#176;F</p>
@@ -111,7 +111,7 @@
         <div class="spotlight-1">
           <h3 >Thankful Transport</h3>
           <picture>
-            <img src="./images/icons8-truck.gif" alt="truck icon">
+            <img src="images/icons8-truck.gif" alt="truck icon">
           </picture>
           <p class="spotlight-tagline">We get it there for you!</p>
           <div class="spotlight-contact">
@@ -123,7 +123,7 @@
         <div class="spotlight-2">
           <h3>Code like a Mother!</h3>
           <picture>
-            <img src="./images/icons8-school-64.png" alt="school house icon">
+            <img src="images/icons8-school-64.png" alt="school house icon">
           </picture>
           <p>Coding program to help parents break into the industry</p>
           <div class="spotlight-contact">
@@ -135,7 +135,7 @@
         <div class="spotlight-3">
           <h3 >Build a Treehouse!</h3>
           <picture>
-            <img src="./images/icons8-treehouse-80.png" alt="tree house icon">
+            <img src="images/icons8-treehouse-80.png" alt="tree house icon">
             <p>Come Buil a treehouse in the city of trees!</p>
           </picture>
       </div>
@@ -144,7 +144,7 @@
     </main>
     <footer>
         <img
-        src="./images/pleasant-grove- logo-new2.png"
+        src="images/pleasant-grove- logo-new2.png"
         alt="PG Chamber of Commerce Logo"
       />
       <div class="contact">
@@ -156,8 +156,10 @@
       <div class="foot">&copy;2022 PG Chamber of Commerce | <span class="foot-name">Jessica Breedlove Reece</span> | WDD 230
         Project<br>Last Modification: <span id="lastmod"></span</div>
     </footer>
-    <script src="./js/scripts.js"></script>
-    <script src="./js/nav.js"></script>
-    <script src="./js/date.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/banner.js"></script>
+
   </body>
 </html>

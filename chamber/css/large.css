@@ -49,12 +49,11 @@
     font-size: 60px;
   }
 
-  /* #banner {
-    font-size: 3em;
-    top: 150px;
-    padding: 5px;
-    max-width: 300px;
-  } */
+  #banner {
+    font-size: 18px;
+    top: 130px;
+    left: 260px;
+  }
 
   nav {
     grid-column: 2/4;
