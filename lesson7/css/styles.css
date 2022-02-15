@@ -1,4 +1,10 @@
-[data-src] {
+/* [data-src] {
   min-width: 50px;
   min-height: 50px;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
