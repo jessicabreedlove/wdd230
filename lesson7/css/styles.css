@@ -9,9 +9,9 @@ body {
   text-align: center;
 }
 
-/* img[data-src] {
+img[data-src] {
   filter: blur(0.2em);
-} */
+}
 
 img {
   filter: blur(0em);
