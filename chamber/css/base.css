@@ -171,17 +171,17 @@ main {
 }
 
 main picture.hero {
-  /* width: 100%; */
+  width: 100%;
   margin: 0 0 0 0;
   /* background-color: #606c38; */
   position: relative;
   grid-row: 1/2;
   align-self: center;
-  object-fit: cover;
 }
 
 main picture.hero img {
   width: 100%;
+  /* object-fit: cover; */
 }
 
 #joinBtn {
@@ -243,6 +243,10 @@ footer li {
 .foot-name {
   font-weight: 700;
 }
+
+/* .num-of-visits {
+  background-color: #bc6c25;
+} */
 
 .clearfix:after {
   content: "";
