@@ -160,6 +160,8 @@ nav {
   z-index: 1;
 }
 
+/*--------- index.html main -----------*/
+
 main {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
@@ -170,8 +172,6 @@ main {
   text-align: center;
   margin: 5px;
 }
-
-/*--------- index.html main -----------*/
 
 main picture.hero {
   width: 100%;
@@ -217,6 +217,30 @@ main ul {
 }
 
 /*-------- discover.html main -------*/
+/* main .discover-grid {
+  display: flex;
+  flex-direction: column;
+} */
+
+.gallery {
+  grid-row: 1/5;
+}
+.gallery picture {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+}
+
+.golden-gallery img {
+  grid-column: 1/2;
+  justify-self: center;
+  align-self: center;
+}
+
+.gallery-description {
+  grid-column: 2/3;
+  background-color: #606c38;
+}
 
 /*-------- footer -------*/
 
