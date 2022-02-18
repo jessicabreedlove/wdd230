@@ -163,12 +163,15 @@ nav {
 main {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 2fr;
+  /* grid-template-columns: 1fr; */
   /* grid-gap: 5px; */
   /* background-color: #606c38; */
   font-family: "Lora", serif;
   text-align: center;
   margin: 5px;
 }
+
+/*--------- index.html main -----------*/
 
 main picture.hero {
   width: 100%;
@@ -212,6 +215,10 @@ main ul {
 .spotlight-3 {
   display: none;
 }
+
+/*-------- discover.html main -------*/
+
+/*-------- footer -------*/
 
 footer {
   display: block;
