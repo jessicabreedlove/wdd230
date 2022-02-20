@@ -67,6 +67,11 @@
     opacity: 0.5;
   }
 
+  .gallery {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

@@ -110,4 +110,17 @@
     border-style: solid;
     margin: 10px;
   }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    font-size: 3em;
+  }
+
+  .gallery picture {
+    justify-self: left;
+    margin-left: 10px;
+
+
 }
