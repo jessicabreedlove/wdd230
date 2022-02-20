@@ -118,9 +118,23 @@
     font-size: 3em;
   }
 
+  .gallery-description {
+    padding: 0;
+    justify-content: left;
+    text-align: left;
+  }
+
   .gallery picture {
     justify-self: left;
     margin-left: 10px;
+  }
 
+  .discover-stats p {
+    font-size: 18px;
+  }
 
+  .discover-stats {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
