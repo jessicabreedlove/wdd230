@@ -302,8 +302,15 @@ footer li {
   font-weight: 700;
 }
 
-/* .num-of-visits {
+.num-of-visits {
+  font-size: 18px;
   background-color: #bc6c25;
+  padding: 5px;
+  text-align: center;
+  opacity: 75%;
+}
+/* .num-of-visits p {
+  opacity: 100%;
 } */
 
 .clearfix:after {
