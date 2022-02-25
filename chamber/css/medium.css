@@ -109,4 +109,28 @@
     border-top: 1px solid white;
     padding-top: 5px;
   }
+
+  /* FORM */
+
+  form {
+    font-size: 16px;
+  }
+
+  form fieldset {
+    margin: 15px;
+    text-align: start;
+  }
+
+  /* form label.top,
+  form div {
+    font-size: 18px;
+  } */
+
+  form label.top input {
+    font-size: 1rem;
+  }
+
+  textarea {
+    width: 100%;
+  }
 }

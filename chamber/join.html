@@ -65,7 +65,7 @@
           Last Name*<input type="text" name="lname" required/>
         </label>
         <label label class="top">
-          Business Position<input type="text" name="title" pattern="[A-Za-z19]{7}"/>
+          Business Position<input type="text" name="title" pattern="([a-zA-Z -]+)" minlength="7"/>
         </label>
         <label label class="top">
           Email*<input type="email" name="email" placeholder="yourname@businessname.com" required/>
@@ -92,10 +92,10 @@
       <fieldset>
         <legend>Business Information</legend>
         <label>
-          <textarea name="description" cols="30" rows="10"></textarea>
+          <textarea name="description" cols="35" rows="10"></textarea>
         </label>
       </fieldset>
-      <input type="hidden" >
+      <input type="hidden" id="currentDate">
       <input type="submit" value="Join"label class="submitBtn"/>
     </form>
   </main>

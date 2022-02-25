@@ -304,7 +304,7 @@ form div {
 form label.top input {
   -webkit-appearance: none;
   display: block;
-  font-size: 1rem;
+  font-size: 16px;
   border: solid 1px #999;
   border-radius: 4px;
   padding: 0.75rem;
