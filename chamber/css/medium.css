@@ -112,7 +112,14 @@
 
   /* FORM */
 
+  .join-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
   form {
+    grid-column: 2/3;
     font-size: 16px;
   }
 
@@ -120,11 +127,6 @@
     margin: 15px;
     text-align: start;
   }
-
-  /* form label.top,
-  form div {
-    font-size: 18px;
-  } */
 
   form label.top input {
     font-size: 1rem;
@@ -141,6 +143,7 @@
   }
 
   .membership-info {
+    grid-column: 1/2;
     text-align: start;
   }
 
