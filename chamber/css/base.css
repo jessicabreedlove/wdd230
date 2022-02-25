@@ -276,6 +276,15 @@ main ul {
   flex-direction: column;
 }
 
+.join-grid h1 {
+  color: white;
+  line-height: 1.2em;
+}
+
+.membership-level {
+  padding: 15px;
+}
+
 form {
   background-color: #f7f0e3;
 }
