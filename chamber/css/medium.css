@@ -133,4 +133,32 @@
   textarea {
     width: 100%;
   }
+
+  .join-grid h1 {
+    color: white;
+    line-height: 1.2em;
+    font-size: 45px;
+  }
+
+  .membership-info {
+    text-align: start;
+  }
+
+  .membership-info h2 {
+    font-size: 35px;
+    margin-left: 2%;
+  }
+
+  .membership-info h3 {
+    font-size: 25px;
+  }
+
+  .membership-info p {
+    line-height: 1.7em;
+    font-size: 16px;
+  }
+
+  form {
+    background-color: #f7f0e3;
+  }
 }
