@@ -5,12 +5,12 @@ body {
 h1,
 h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 3em;
+  font-size: 40px;
 }
 
 h2 {
   font-family: "Dancing Script", cursive;
-  font-size: 2em;
+  font-size: 32px;
 }
 
 p {
@@ -23,14 +23,19 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 5px;
+  border: 10px solid white;
 }
 
 .cards section {
-  border: 2px black solid;
+  border: 2px #595148 solid;
   border-collapse: collapse;
-  background-color: #623e1b;
+  background-color: #b2a18f;
+  padding: 10px;
+  box-shadow: 0 0 30px #595148;
 }
 
 img {
-  max-width: 100%;
+  width: auto;
+  max-width: 200px;
+  box-shadow: 0 0 30px #595148;
 }

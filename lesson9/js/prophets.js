@@ -19,17 +19,15 @@ function displayProphets(prophet) {
   let p = document.createElement("p");
   let portrait = document.createElement("img");
 
-  // Change the textContent property of the h2 element to contain the prophet's full name
   h2.textContent = `${prophet.name} ${prophet.lastname}`;
   p.textContent = `Birth Date: ${prophet.birthdate}  
   Birth Place: ${prophet.birthplace}`;
-  console.log(p.textContent);
 
-  // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values.
+  // Build the image attributes
   portrait.setAttribute("src", prophet.imageurl);
   portrait.setAttribute(
     "alt",
-    `Portrait of ${prophet.name} ${prophet.lastname}`
+    `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order}`
   );
   portrait.setAttribute("loading", "lazy");
 
