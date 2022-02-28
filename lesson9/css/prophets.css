@@ -1,130 +1,36 @@
-.cards {
-  background-color: #623e1b;
-  border: 2px black solid;
-}
-
-.cards section {
-  border: 2px black solid;
-}
-
 body {
-  font-size: 16px;
-  font-family: "Lora", serif;
+  text-align: center;
 }
 
 h1,
 h2 {
   font-family: "Dancing Script", cursive;
-}
-
-header,
-main,
-footer {
-  margin: 1rem;
-  position: relative;
-}
-
-h1 {
-  color: #000;
-  border-bottom: 1px solid #eee;
-  text-shadow: 0 0 15px #999;
-  width: 60%;
+  font-size: 3em;
 }
 
 h2 {
-  color: darkblue;
-  margin: 0;
-}
-
-h3 {
-  margin: 0;
-}
-
-h4 {
-  color: #333;
-  margin: 7px 0 5px 0;
+  font-family: "Dancing Script", cursive;
+  font-size: 2em;
 }
 
 p {
-  margin: 0;
+  font-family: "Lora", serif;
+  font-size: 18px;
 }
 
-main {
-  margin-left: 2rem;
-}
-
-.grid {
+.cards {
+  text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 5px;
 }
 
-section {
-  margin: 0.25rem;
-  padding: 0.35rem;
-  background-color: #eee;
-  border: 1px solid #bbb;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-section > p {
-  min-height: 60px;
+.cards section {
+  border: 2px black solid;
+  border-collapse: collapse;
+  background-color: #623e1b;
 }
 
 img {
-  width: auto;
-  max-width: 325px;
-  box-shadow: 0 0 30px #777;
-  height: 200px;
-  border: 1px solid #333;
-}
-
-li > img {
-  width: auto;
-  height: 30px;
-}
-
-footer {
-  border-top: 1px solid #555;
-  padding: 20px;
-}
-
-.caption {
-  position: absolute;
-  top: 1.5rem;
-  right: 2rem;
-  border: 1px solid #ccc;
-  background-color: lightyellow;
-  padding: 0.25rem;
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1rem 1fr;
-}
-
-.caption h6 {
-  position: absolute;
-  top: -2.3rem;
-  left: -0.25rem;
-}
-
-.caption > div {
-  width: 0.75rem;
-  height: 0.75rem;
-  border: 1px solid #bbb;
-}
-
-.caption > p {
-  font-size: 0.75rem;
-}
-
-.most {
-  background-color: #bed;
-}
-
-.fav {
-  background-color: skyblue;
-}
-
-.own {
-  background-color: rosybrown;
+  max-width: 100%;
 }
