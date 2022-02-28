@@ -14,3 +14,22 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 // datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+/*form date*/
+const formdate = new Date();
+let date =
+  formdate.getFullYear() +
+  "-" +
+  (formdate.getMonth() + 1) +
+  "-" +
+  formdate.getDate(); /*getMonth starts in 0 that is why we add 1 to show the correct number of the month*/
+let time =
+  formdate.getHours() +
+  ":" +
+  formdate.getMinutes() +
+  ":" +
+  formdate.getSeconds();
+let dateTime = date + " " + time;
+console.log(dateTime);
+
+document.querySelector("#formdate").innerHTML = dateTime;
