@@ -20,8 +20,8 @@ function displayProphets(prophet) {
   let portrait = document.createElement("img");
 
   h2.textContent = `${prophet.name} ${prophet.lastname}`;
-  p.textContent = `Birth Date: ${prophet.birthdate}  
-  Birth Place: ${prophet.birthplace}`;
+  p.innerHTML = `<strong>Birth Date:</strong> ${prophet.birthdate} <br/>  
+  <strong>Birth Place:</strong> ${prophet.birthplace}`;
 
   // Build the image attributes
   portrait.setAttribute("src", prophet.imageurl);
