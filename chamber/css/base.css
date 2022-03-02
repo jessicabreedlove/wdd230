@@ -248,6 +248,12 @@ main ul {
   text-align: center;
 }
 
+.discover-grid p {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 0 3% 2% 3%;
+}
+
 .golden-gallery img {
   display: block;
   margin-left: auto;
