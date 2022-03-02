@@ -182,7 +182,7 @@ main picture.hero {
   position: relative;
   grid-row: 1/2;
   align-self: center;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 main picture.hero img {
