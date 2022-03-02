@@ -42,7 +42,6 @@
 
   .date {
     margin: 25px 50px;
-    font-size: 2em;
   }
 
   h1 {
@@ -50,9 +49,8 @@
   }
 
   #banner {
-    font-size: 18px;
-    top: 130px;
-    left: 260px;
+    top: 140px;
+    left: 240px;
   }
 
   nav {
