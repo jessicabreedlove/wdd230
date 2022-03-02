@@ -8,149 +8,199 @@
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Lora&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="pg.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="pg.ico" type="image/x-icon" />
     <meta
       name="description"
       content="Jessica Reece site for Pleasant Grove, UT Chamber of Commerce WDD 230"
     />
   </head>
-<body>
-  <header>
-    <div class="top">
-      <img class="logo"
-      src="images/pglogoblk.webp"
-      alt="PG Chamber of Commerce Logo"
-    />
-    <h1>Pleasant Grove <br><span class="byline">Chamber of Commerce</span></h1>
+  <body>
+    <header>
+      <div class="top">
+        <img
+          class="logo"
+          src="images/pglogoblk.webp"
+          alt="PG Chamber of Commerce Logo"
+        />
+        <h1>
+          Pleasant Grove <br /><span class="byline">Chamber of Commerce</span>
+        </h1>
 
-    <div class="social">
-      <a
-      class="socialmedia"
-      target="_blank"
-      href="https://www.instagram.com"
-      ><img
-        class="icon"
-        src="https://cdn.glitch.me/6aae729e-f8ae-4ef6-a18f-3d5f98b1c058%2Finstagram.png?v=1633745613871"
-    /></a>
+        <div class="social">
+          <a
+            class="socialmedia"
+            target="_blank"
+            href="https://www.instagram.com"
+            ><img
+              class="icon"
+              src="images/instagram-icon-48.png"
+              alt="instagram"
+          /></a>
 
-    <a class="socialmedia" target="_blank" href="https://www.facebook.com"
-      ><img
-        class="icon"
-        src="https://cdn.glitch.me/6aae729e-f8ae-4ef6-a18f-3d5f98b1c058%2Ffacebook.png?v=1633745616466"
-    /></a>
-    </div>
-    <div class="num-of-visits">
-      <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
-      <p>Current Page Load Timestamp: <span class="today"></span> in milliseconds.</p>
-    </div>
-    
-   
-  <nav>
-    <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
-    <ul id="primaryNav">
-      <li><a href="index.html">Home</a></li>
-      <li class="active"><a href="discover.html">Directory</a></li>
-      <li><a href="join.html">Join</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-    </div>
-  <p class="date"></p>
-  </header>
-  <main class="discover-grid">
-    <div class="discover-stats">
-      <h1>Discover Pleasant Grove</h1>
-      <p>Here are some interesting stats and facts about pleasant grove. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut tortor non turpis faucibus volutpat sit amet vel ex. Sed ornare, lacus nec viverra dignissim, enim lorem vehicula sem, id efficitur turpis felis vel magna. Suspendisse metus urna, pellentesque quis augue facilisis, efficitur lobortis libero. Ut eget rutrum eros. </p>
-    </div>
+          <a class="socialmedia" target="_blank" href="https://www.facebook.com"
+            ><img class="icon" src="images/facebook-icon-48.png" alt="facebook"
+          /></a>
+        </div>
+        <div class="num-of-visits">
+          <p>
+            <span class="label">Number of Visits: </span
+            ><span class="visits"></span>
+          </p>
+          <p>Days since last visit: <span id="lastvisit"></span></p>
+        </div>
 
-    <div class="gallery">
-      <picture>
-        <img class="golden-gallery"alt="family picture" src="images/placeholder-500.jpg"
-        data-src="images/family-500.jpg"/>
-      </picture>
-      <h2 class="gallery-description">Community</h2>
+        <nav>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+          <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="discover.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="date"></p>
+    </header>
+    <main class="discover-grid">
+      <div class="discover-stats">
+        <h1>Discover Pleasant Grove</h1>
+        <p>
+          Here are some interesting stats and facts about pleasant grove. Lorem
+          ipsum dolor sit amet, consectetur adipiscing elit. Ut ut tortor non
+          turpis faucibus volutpat sit amet vel ex. Sed ornare, lacus nec
+          viverra dignissim, enim lorem vehicula sem, id efficitur turpis felis
+          vel magna. Suspendisse metus urna, pellentesque quis augue facilisis,
+          efficitur lobortis libero. Ut eget rutrum eros.
+        </p>
+      </div>
 
-      <picture>
-        <img class="golden-gallery"src="images/placeholder-500.jpg"
-        data-src="images/utah-lake-mnt-500.jpg"
-        alt="utah lake with mountain"/>
-      </picture>
-      <h2 class="gallery-description">Utah Lake & AF Canyon</h2>
-      
-      <picture>
-      <img class="golden-gallery"src="images/placeholder-500.jpg"
-      data-src="images/food-500.jpg"
-      alt="resturant with food"/>
-    </picture>
-    <h2 class="gallery-description">Delicious Restaurants</h2>
-      
-    <picture>
-        <img class="golden-gallery"src="images/placeholder-500.jpg"
-        data-src="images/biking-500.jpg"
-        alt="bike ride"/>
-      </picture>
-      <h2 class="gallery-description">Murdock Canal Trail</h2>
-      
-      <picture>
-        <img class="golden-gallery"src="images/placeholder-500.jpg"
-        data-src="images/girl-reading-500.jpg"
-        alt="girl reading"/>
-      </picture>
-      <h2 class="gallery-description">Schools & Education</h2>
-      
-      <picture>
-        <img class="golden-gallery"src="images/placeholder-500.jpg"
-        data-src="images/kids-play-500.jpg"
-        alt="kids playing with colorful parachute"/>
-      </picture>
-      <h2 class="gallery-description">Kid Explorers</h2>
-      
-      <picture>
-        <img class="golden-gallery"src="images/placeholder-500.jpg"
-        data-src="images/yoga-500.jpg"
-        alt="yoga class"/>
-      </picture>
-      <h2 class="gallery-description">Recreation Center</h2>
-      
-      <picture>
-        <img class="golden-gallery"src="images/placeholder-500.jpg"
-        data-src="images/fair-500.jpg"
-        alt="fair ride"/>
-      </picture>
-      <h2 class="gallery-description">Strawberry Days</h2>
-      
-      <picture>
-        <img class="golden-gallery"src="images/placeholder-500.jpg"
-        data-src="images/books-500.jpg"
-        alt="books on bookshelf"/>
-      </picture>
-      <h2 class="gallery-description">Book Club</h2>
-    </div>
-  </main>
-  <footer>
-    <img
-    src="images/pleasant-grove- logo-new2.png"
-    alt="PG Chamber of Commerce Logo"
-    />
-    <div class="contact">
-      <p><span class="address">Pleasant Grove Chamber of Commerce</span><br>1000 N 350 E<br>
-      Pleasant Grove, UT 56789 </p>
-    </div>
-    <div class="location">  
-      <p>info@pgcommerce.org<br> +1(801) 324-5678</p>
-      <p>Location Map </p>
-    </div>
-    <div class="foot">&copy;2022 PG Chamber of Commerce | <span class="foot-name">Jessica Breedlove Reece</span> | WDD 230
-    Project<br>Last Modification: <span id="lastmod"></span>
-  </div>
-</footer>
-  <script src="js/nav.js"></script>
-  <script src="js/date.js"></script>
-  <script src="js/storage.js"></script>
-  <script src="js/lazyload.js"></script>
-</body>
+      <div class="gallery">
+        <picture>
+          <img
+            class="golden-gallery"
+            alt="family picture"
+            src="images/placeholder-500.jpg"
+            data-src="images/family-500.jpg"
+          />
+        </picture>
+        <h2 class="gallery-description">Community</h2>
+
+        <picture>
+          <img
+            class="golden-gallery"
+            src="images/placeholder-500.jpg"
+            data-src="images/utah-lake-mnt-500.jpg"
+            alt="utah lake with mountain"
+          />
+        </picture>
+        <h2 class="gallery-description">Utah Lake & AF Canyon</h2>
+
+        <picture>
+          <img
+            class="golden-gallery"
+            src="images/placeholder-500.jpg"
+            data-src="images/food-500.jpg"
+            alt="resturant with food"
+          />
+        </picture>
+        <h2 class="gallery-description">Delicious Restaurants</h2>
+
+        <picture>
+          <img
+            class="golden-gallery"
+            src="images/placeholder-500.jpg"
+            data-src="images/biking-500.jpg"
+            alt="bike ride"
+          />
+        </picture>
+        <h2 class="gallery-description">Murdock Canal Trail</h2>
+
+        <picture>
+          <img
+            class="golden-gallery"
+            src="images/placeholder-500.jpg"
+            data-src="images/girl-reading-500.jpg"
+            alt="girl reading"
+          />
+        </picture>
+        <h2 class="gallery-description">Schools & Education</h2>
+
+        <picture>
+          <img
+            class="golden-gallery"
+            src="images/placeholder-500.jpg"
+            data-src="images/kids-play-500.jpg"
+            alt="kids playing with colorful parachute"
+          />
+        </picture>
+        <h2 class="gallery-description">Kid Explorers</h2>
+
+        <picture>
+          <img
+            class="golden-gallery"
+            src="images/placeholder-500.jpg"
+            data-src="images/yoga-500.jpg"
+            alt="yoga class"
+          />
+        </picture>
+        <h2 class="gallery-description">Recreation Center</h2>
+
+        <picture>
+          <img
+            class="golden-gallery"
+            src="images/placeholder-500.jpg"
+            data-src="images/fair-500.jpg"
+            alt="fair ride"
+          />
+        </picture>
+        <h2 class="gallery-description">Strawberry Days</h2>
+
+        <picture>
+          <img
+            class="golden-gallery"
+            src="images/placeholder-500.jpg"
+            data-src="images/books-500.jpg"
+            alt="books on bookshelf"
+          />
+        </picture>
+        <h2 class="gallery-description">Book Club</h2>
+      </div>
+    </main>
+    <footer>
+      <img
+        src="images/pleasant-grove-logo-new2.png"
+        alt="PG Chamber of Commerce Logo"
+      />
+      <div class="contact">
+        <p>
+          <span class="address">Pleasant Grove Chamber of Commerce</span
+          ><br />1000 N 350 E<br />
+          Pleasant Grove, UT 56789
+        </p>
+      </div>
+      <div class="location">
+        <p>
+          info@pgcommerce.org<br />
+          +1(801) 324-5678
+        </p>
+        <p>Location Map</p>
+      </div>
+      <div class="foot">
+        &copy;2022 PG Chamber of Commerce |
+        <span class="foot-name">Jessica Breedlove Reece</span> | WDD 230
+        Project<br />Last Modification: <span id="lastmod"></span>
+      </div>
+    </footer>
+    <script src="js/nav.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/lazyload.js"></script>
+  </body>
 </html>

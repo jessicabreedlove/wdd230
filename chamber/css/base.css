@@ -383,14 +383,12 @@ footer li {
 
 .num-of-visits {
   font-size: 18px;
+  font-weight: 750;
   background-color: #bc6c25;
   padding: 5px;
   text-align: center;
-  opacity: 75%;
+  border-radius: 45px;
 }
-/* .num-of-visits p {
-  opacity: 100%;
-} */
 
 .clearfix:after {
   content: "";
