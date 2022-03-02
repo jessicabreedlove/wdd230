@@ -95,6 +95,10 @@ h3 {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
+h3 {
+  font-size: 22px;
+}
+
 .socialmedia img {
   max-width: 1.5em;
 }
@@ -156,6 +160,7 @@ nav {
   font-size: 10px;
   font-weight: 100;
   border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
   top: 55px;
   z-index: 1;
 }
@@ -188,12 +193,14 @@ main picture.hero img {
 
 #joinBtn {
   position: absolute;
-  top: 8.5rem;
+  top: -50px;
   right: 1rem;
   background-color: #bc6c25;
-  font-size: 0.9em;
-  color: white;
+  font-size: 18px;
+  color: black;
+  font-weight: 750;
   padding: 0.6em;
+  border-radius: 20px;
 }
 
 main div {
