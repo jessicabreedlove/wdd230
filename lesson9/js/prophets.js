@@ -31,6 +31,28 @@ function displayProphets(prophet) {
   );
   portrait.setAttribute("loading", "lazy");
 
+  if (prophet.order == 1) {
+    portrait.setAttribute(
+      "alt",
+      `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}st Latter-day President`
+    );
+  } else if (prophet.order == 2) {
+    portrait.setAttribute(
+      "alt",
+      `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}nd Latter-day President`
+    );
+  } else if (prophet.order == 3) {
+    portrait.setAttribute(
+      "alt",
+      `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}rd Latter-day President`
+    );
+  } else {
+    portrait.setAttribute(
+      "alt",
+      `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}th Latter-day President`
+    );
+  }
+
   // Add/append the section(card) with the h2 element
   card.appendChild(h2);
   card.appendChild(p);
