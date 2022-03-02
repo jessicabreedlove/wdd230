@@ -6,6 +6,8 @@ header,
 main,
 footer {
   font-family: "Roboto Slab", serif;
+  max-width: 780px;
+  margin: auto;
 }
 
 main ul {
@@ -45,6 +47,12 @@ header {
   border: 2px solid white;
   border-radius: 70px;
   width: 150px;
+}
+
+.top {
+  align-self: center;
+  justify-self: center;
+  padding: 10px;
 }
 
 main {
