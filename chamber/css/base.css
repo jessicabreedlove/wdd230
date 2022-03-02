@@ -215,6 +215,12 @@ main ul {
   display: none;
 }
 
+p {
+  font-size: 18px;
+  line-height: 1.5em;
+  margin: 0 3% 2% 3%;
+}
+
 /*-------- discover.html main -------*/
 .discover-grid {
   display: grid;
@@ -246,12 +252,6 @@ main ul {
   justify-self: center;
   align-self: center;
   text-align: center;
-}
-
-.discover-grid p {
-  font-size: 18px;
-  line-height: 1.5em;
-  margin: 0 3% 2% 3%;
 }
 
 .golden-gallery img {
