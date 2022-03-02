@@ -1,15 +1,13 @@
 body {
   font-size: 18px;
-  line-height: 2em;
 }
 
 header,
 main,
 footer {
-  margin: 1.25em auto;
-  max-width: 760px;
   font-family: "Roboto Slab", serif;
 }
+
 main ul {
   list-style: none;
 }
@@ -18,30 +16,46 @@ header,
 footer {
   background-color: #2c6e49;
   color: #fff;
-  text-align: center;
-  padding: 1.1rem;
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-family: "Shippori Antique", sans-serif;
 }
 
 header {
-  padding: 1.3rem;
+  padding: 10px;
   display: grid;
-  grid-template-columns: repeat (4, 1fr);
-  grid-template-rows: repeat (4, 1fr);
-  align-items: center;
-  justify-content: space-around;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
 }
 
-header h1 {
-  float: right;
-  grid-column: 2/4;
-  grid-row: 1/4;
+#title {
+  grid-column: 1/2;
+  align-self: center;
+  justify-self: center;
+  font-size: 20px;
+  text-align: center;
+}
+
+#profile {
+  grid-column: 2/3;
+  align-self: center;
+  justify-self: center;
+  border: 2px solid white;
+  border-radius: 70px;
+  width: 150px;
+}
+
+main {
+  margin: 0 2% 0 2%;
+}
+
+.assignments {
+  line-height: 2em;
+}
+
+footer {
+  padding: 5px;
+  text-align: center;
 }
