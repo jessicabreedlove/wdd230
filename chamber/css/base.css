@@ -378,6 +378,23 @@ form label.top input:required:valid {
   border-left: #606c38 solid 6px;
 }
 
+/*-------- Directory -------*/
+.cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 5px;
+  border: 10px solid white;
+}
+
+.cards section {
+  border: 2px #595148 solid;
+  border-collapse: collapse;
+  background-color: #b2a18f;
+  padding: 10px;
+  box-shadow: 0 0 30px #595148;
+}
+
 /*-------- footer -------*/
 
 footer {
