@@ -395,6 +395,10 @@ form label.top input:required:valid {
   box-shadow: 0 0 30px #595148;
 }
 
+.cards img {
+  width: 200px;
+}
+
 /*-------- footer -------*/
 
 footer {

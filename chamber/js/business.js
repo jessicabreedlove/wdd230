@@ -17,7 +17,7 @@ function displayBusiness(business) {
   let card = document.createElement("section");
   let h2 = document.createElement("h2");
   let p = document.createElement("p");
-  // let logo = document.createElement("img");
+  let logo = document.createElement("img");
 
   h2.textContent = `${business.name}`;
   p.innerHTML = `${business.address}<br/>
@@ -25,12 +25,12 @@ function displayBusiness(business) {
     ${business.website}`;
 
   // Build the image attributes
-  // logo.setAttribute("src", business.imageurl);
-  // logo.setAttribute("alt", `logo of ${business.name}}`);
-  // logo.setAttribute("loading", "lazy");
+  logo.setAttribute("src", business.imageurl);
+  logo.setAttribute("alt", `logo of ${business.name}}`);
+  logo.setAttribute("loading", "lazy");
 
   // Add/append the section(card) with the h2 element
-  // card.appendChild(logo);
+  card.appendChild(logo);
   card.appendChild(h2);
   card.appendChild(p);
 
