@@ -380,8 +380,7 @@ form label.top input:required:valid {
 
 /*-------- Directory -------*/
 .join-grid {
-  display: flex;
-  flex-direction: column;
+  display: block;
 }
 
 .cards {
