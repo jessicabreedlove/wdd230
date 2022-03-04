@@ -2,7 +2,7 @@
   "business": [
     {
       "name": "PG Cupcakes",
-      "address": "1800 N Sweet Lane",
+      "address": "1800 N Sweet Ln",
       "city": "Pleasant Grove",
       "state": "UT",
       "zip": "84062",
@@ -11,34 +11,113 @@
       "imageurl": "//img.icons8.com/dusk/64/000000/cupcake.png"
     },
     {
-      "name": "PG Cupcakes",
-      "address": "1800 N Sweet Lane",
+      "name": "Carters Car Repair",
+      "address": "33 S Engine Rd",
       "city": "Pleasant Grove",
       "state": "UT",
       "zip": "84062",
       "phone": "888-666-5555",
-      "website": "pgcupcakes.com",
+      "website": "carter4u.com",
       "imageurl": "https://icons8.com/icon/46446/cupcake"
     },
     {
-      "name": "PG Cupcakes",
-      "address": "1800 N Sweet Lane",
+      "name": "Calm Salon",
+      "address": "1566 E Hair Ln",
       "city": "Pleasant Grove",
       "state": "UT",
       "zip": "84062",
       "phone": "888-666-5555",
-      "website": "pgcupcakes.com",
+      "website": "saloncalm.com",
       "imageurl": "https://icons8.com/icon/46446/cupcake"
     },
-
     {
-      "name": "PG Cupcakes",
-      "address": "1800 N Sweet Lane",
+      "name": "Cravings Resturant",
+      "address": "1500 N Food Ln",
       "city": "Pleasant Grove",
       "state": "UT",
       "zip": "84062",
       "phone": "888-666-5555",
-      "website": "pgcupcakes.com",
+      "website": "eatcravings.com",
+      "imageurl": "https://icons8.com/icon/46446/cupcake"
+    },
+    {
+      "name": "At Home Insurance",
+      "address": "1432 Peace Dr",
+      "city": "Pleasant Grove",
+      "state": "UT",
+      "zip": "84062",
+      "phone": "888-666-5555",
+      "website": "safeathome.com",
+      "imageurl": "https://icons8.com/icon/46446/cupcake"
+    },
+    {
+      "name": "CleanIt Cleaners",
+      "address": "1277 Sparkle Rd",
+      "city": "Pleasant Grove",
+      "state": "UT",
+      "zip": "84062",
+      "phone": "888-666-5555",
+      "website": "wemeanclean.com",
+      "imageurl": "https://icons8.com/icon/46446/cupcake"
+    },
+    {
+      "name": "Nails by Fam",
+      "address": "56 N Fahsion St",
+      "city": "Pleasant Grove",
+      "state": "UT",
+      "zip": "84062",
+      "phone": "888-666-5555",
+      "website": "nailsbyfam.com",
+      "imageurl": "https://icons8.com/icon/46446/cupcake"
+    },
+    {
+      "name": "Mountainland Bicycle",
+      "address": "25 S Active Lane",
+      "city": "Pleasant Grove",
+      "state": "UT",
+      "zip": "84062",
+      "phone": "888-666-5555",
+      "website": "mountainlandbs.com",
+      "imageurl": "https://icons8.com/icon/46446/cupcake"
+    },
+    {
+      "name": "PG Auto Sales",
+      "address": "1800 N Drive Dr",
+      "city": "Pleasant Grove",
+      "state": "UT",
+      "zip": "84062",
+      "phone": "888-666-5555",
+      "website": "buycars4fun.com",
+      "imageurl": "https://icons8.com/icon/46446/cupcake"
+    },
+    {
+      "name": "PG Pie",
+      "address": "1200 N Sweet Ln",
+      "city": "Pleasant Grove",
+      "state": "UT",
+      "zip": "84062",
+      "phone": "888-666-5555",
+      "website": "pieordie.com",
+      "imageurl": "https://icons8.com/icon/46446/cupcake"
+    },
+    {
+      "name": "Fab Graphic Design",
+      "address": "1340 N Technology Cir",
+      "city": "Pleasant Grove",
+      "state": "UT",
+      "zip": "84062",
+      "phone": "888-666-5555",
+      "website": "fgdesign.com",
+      "imageurl": "https://icons8.com/icon/46446/cupcake"
+    },
+    {
+      "name": "Website World",
+      "address": "1450 N Technolofy Cir",
+      "city": "Pleasant Grove",
+      "state": "UT",
+      "zip": "84062",
+      "phone": "888-666-5555",
+      "website": "worldofweb.com",
       "imageurl": "https://icons8.com/icon/46446/cupcake"
     }
   ]
