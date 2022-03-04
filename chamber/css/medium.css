@@ -166,4 +166,24 @@
   form {
     background-color: #f7f0e3;
   }
+
+  .join-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* .cards {
+    text-align: center;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 5px;
+  }
+
+  .cards section {
+    border: 2px #283618 solid;
+    border-collapse: collapse;
+    background-color: #f7f0e3;
+    padding: 10px;
+    box-shadow: 0 0 30px #283618;
+  } */
 }
