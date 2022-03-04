@@ -383,6 +383,32 @@ form label.top input:required:valid {
   display: block;
 }
 
+.displayBtns {
+  background-color: #283618;
+}
+
+#gridBtn {
+  margin: 0.2rem 2vw;
+  background-color: #f7f0e3;
+  border: none;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: #bc6c25;
+}
+
+.display-btns {
+  background-color: #283618;
+}
+
+#listBtn {
+  margin: 0.2rem 2vw;
+  background-color: #f7f0e3;
+  border: none;
+  border-radius: 10px;
+  font-size: 2rem;
+  color: #bc6c25;
+}
+
 .cards {
   text-align: center;
   display: grid;
