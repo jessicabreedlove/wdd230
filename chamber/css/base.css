@@ -409,7 +409,11 @@ form label.top input:required:valid {
   color: #bc6c25;
 }
 
-.cards {
+.grid-view {
+  display: none;
+}
+
+.grid-view.display {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

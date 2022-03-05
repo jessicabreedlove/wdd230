@@ -19,7 +19,7 @@ function displayBusiness(business) {
   let p = document.createElement("p");
   let logo = document.createElement("img");
 
-  card.setAttribute("class", "card");
+  card.setAttribute("class", "card grid-view");
 
   h2.textContent = `${business.name}`;
   p.innerHTML = `${business.address}<br/>
@@ -31,7 +31,7 @@ function displayBusiness(business) {
   logo.setAttribute("src", business.imageurl);
   logo.setAttribute("alt", `logo of ${business.name}}`);
   logo.setAttribute("loading", "lazy");
-  logo.setAttribute("class", "company-logo");
+  logo.setAttribute("class", "company-logo grid-view");
 
   // Add/append the section(card) with the h2 element
   card.appendChild(logo);
@@ -40,4 +40,13 @@ function displayBusiness(business) {
 
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector("div.cards").appendChild(card);
+}
+
+function gridView() {
+  document.getElementById("gridBtn").classList.toggle("display");
+  console.log("This is working");
+}
+
+function listView() {
+  document.getElementById("listBtn").classList.toggle("display");
 }
