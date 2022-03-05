@@ -43,10 +43,16 @@ function displayBusiness(business) {
 }
 
 function gridView() {
-  document.getElementById("gridBtn").classList.toggle("display");
+  document.getElementById("gridBtn").classList.toggle("show");
   console.log("This is working");
 }
 
 function listView() {
-  document.getElementById("listBtn").classList.toggle("display");
+  document.getElementById("listBtn").classList.toggle("show");
 }
+
+const listViewButton = document.getElementById("listBtn");
+listViewButton.onclick = listView;
+
+const gridViewButton = document.getElementById("gridBtn");
+gridViewButton.onclick = gridView;

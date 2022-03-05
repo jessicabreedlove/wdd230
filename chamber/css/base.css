@@ -413,7 +413,7 @@ form label.top input:required:valid {
   display: none;
 }
 
-.grid-view.display {
+.grid-view.show {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
