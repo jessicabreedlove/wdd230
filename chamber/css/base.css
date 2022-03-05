@@ -418,7 +418,7 @@ form label.top input:required:valid {
   background-color: #606c38;
 }
 
-.cards section {
+.card {
   border: 2px #283618 solid;
   border-collapse: collapse;
   background-color: #f7f0e3;
@@ -428,7 +428,17 @@ form label.top input:required:valid {
 
 .company-logo {
   width: 80px;
+  /* display: none; */
 }
+
+/* table,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+} */
 
 /*-------- footer -------*/
 

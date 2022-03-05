@@ -19,9 +19,12 @@ function displayBusiness(business) {
   let p = document.createElement("p");
   let logo = document.createElement("img");
 
+  card.setAttribute("class", "card");
+
   h2.textContent = `${business.name}`;
   p.innerHTML = `${business.address}<br/>
     ${business.city}, ${business.state} ${business.zip}<br/>
+    ${business.phone}</br>
     ${business.website}`;
 
   // Build the image attributes
