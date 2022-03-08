@@ -27,8 +27,7 @@ function displayBusiness(business) {
   p2.setAttribute("class", "webpage");
 
   h2.textContent = `${business.name}`;
-  p.innerHTML = `${business.address}</br
-  ${business.city}, ${business.state} ${business.zip}`;
+  p.innerHTML = `${business.address}</br>${business.city}, ${business.state} ${business.zip}`;
   p1.innerHTML = `${business.phone}`;
   p2.innerHTML = `${business.website}`;
 

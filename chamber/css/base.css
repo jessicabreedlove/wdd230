@@ -427,13 +427,28 @@ section.gridView {
   box-shadow: 0 0 30px #283618;
 }
 
-img.logo.gridView {
+.gridView img {
+  display: block;
   width: 80px;
+}
+
+.gridView p.address {
+  display: block;
+}
+
+.gridView section p.phone {
+  display: block;
+}
+
+.gridView section p.webpage {
+  display: block;
 }
 
 /* list view */
 
-.list
+.listview section p {
+  display: none;
+}
 
 /*-------- footer -------*/
 
