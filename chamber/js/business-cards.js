@@ -19,7 +19,7 @@ function displayBusiness(business) {
   let p = document.createElement("p");
   let logo = document.createElement("img");
 
-  card.setAttribute("class", "card grid-view");
+  // card.setAttribute("class", "card grid-view");
 
   h2.textContent = `${business.name}`;
   p.innerHTML = `${business.address}<br/>
@@ -42,17 +42,17 @@ function displayBusiness(business) {
   document.querySelector("div.cards").appendChild(card);
 }
 
-function gridView() {
-  document.getElementById("gridBtn").classList.toggle("show");
-  console.log("This is working");
-}
+// function gridView() {
+//   document.getElementById("gridBtn").classList.toggle("show");
+//   console.log("This is working");
+// }
 
-function listView() {
-  document.getElementById("listBtn").classList.toggle("show");
-}
+// function listView() {
+//   document.getElementById("listBtn").classList.toggle("show");
+// }
 
-const listViewButton = document.getElementById("listBtn");
-listViewButton.onclick = listView;
+// const listViewButton = document.getElementById("listBtn");
+// listViewButton.onclick = listView;
 
-const gridViewButton = document.getElementById("gridBtn");
-gridViewButton.onclick = gridView;
+// const gridViewButton = document.getElementById("gridBtn");
+// gridViewButton.onclick = gridView;
