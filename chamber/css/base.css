@@ -409,11 +409,8 @@ form label.top input:required:valid {
   color: #bc6c25;
 }
 
-.grid-view {
-  display: none;
-}
-
-.grid-view.show {
+/* grid view */
+div .cards.gridView {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -422,7 +419,7 @@ form label.top input:required:valid {
   background-color: #606c38;
 }
 
-.card {
+section.gridView {
   border: 2px #283618 solid;
   border-collapse: collapse;
   background-color: #f7f0e3;
@@ -430,19 +427,13 @@ form label.top input:required:valid {
   box-shadow: 0 0 30px #283618;
 }
 
-.company-logo {
+img.logo.gridView {
   width: 80px;
-  /* display: none; */
 }
 
-/* table,
-tr,
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: 10px;
-  text-align: center;
-} */
+/* list view */
+
+.list
 
 /*-------- footer -------*/
 

@@ -18,42 +18,33 @@ function displayBusiness(business) {
   let card = document.createElement("section");
   let h2 = document.createElement("h2");
   let p = document.createElement("p");
+  let p1 = document.createElement("p");
+  let p2 = document.createElement("p");
   let logo = document.createElement("img");
 
-  // card.setAttribute("class", "card grid-view");
+  p.setAttribute("class", "address");
+  p1.setAttribute("class", "phone");
+  p2.setAttribute("class", "webpage");
 
   h2.textContent = `${business.name}`;
-  p.innerHTML = `${business.address}<br/>
-    ${business.city}, ${business.state} ${business.zip}<br/>
-    ${business.phone}</br>
-    ${business.website}`;
+  p.innerHTML = `${business.address}</br
+  ${business.city}, ${business.state} ${business.zip}`;
+  p1.innerHTML = `${business.phone}`;
+  p2.innerHTML = `${business.website}`;
 
   // Build the image attributes
   logo.setAttribute("src", business.imageurl);
   logo.setAttribute("alt", `logo of ${business.name}}`);
   logo.setAttribute("loading", "lazy");
-  logo.setAttribute("class", "company-logo grid-view");
+  logo.setAttribute("class", "logo");
 
   // Add/append the section(card) with the h2 element
   card.appendChild(logo);
   card.appendChild(h2);
   card.appendChild(p);
+  card.appendChild(p1);
+  card.appendChild(p2);
 
   // Add/append the existing HTML div with the cards class with the section(card)
   document.querySelector("div.cards").appendChild(card);
 }
-
-// function gridView() {
-//   document.getElementById("gridBtn").classList.toggle("show");
-//   console.log("This is working");
-// }
-
-// function listView() {
-//   document.getElementById("listBtn").classList.toggle("show");
-// }
-
-// const listViewButton = document.getElementById("listBtn");
-// listViewButton.onclick = listView;
-
-// const gridViewButton = document.getElementById("gridBtn");
-// gridViewButton.onclick = gridView;

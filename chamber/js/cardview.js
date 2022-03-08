@@ -1,9 +1,9 @@
-const cardView = document.querySelector("#gridBtn");
+const gridView = document.querySelector("#gridBtn");
 const listView = document.querySelector("#listBtn");
 
-cardView.addEventListener("click", () => {
-  cards.classList.replace("listView", "cardView");
+gridView.addEventListener("click", () => {
+  cards.classList.replace("listView", "gridView");
 });
 listView.addEventListener("click", () => {
-  cards.classList.replace("cardView", "listView");
+  cards.classList.replace("gridView", "listView");
 });
