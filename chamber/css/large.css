@@ -74,6 +74,10 @@
     grid-column: 1/2;
   }
 
+  figcaption#weathercap {
+    font-size: 14px;
+  }
+
   .join {
     grid-row: 3/4;
     grid-column: 1/2;

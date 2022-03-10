@@ -245,6 +245,20 @@ p {
   margin: 0 3% 2% 3%;
 }
 
+q {
+  display: inline;
+  font-size: 16px;
+}
+
+q:before,
+q:after {
+  content: "";
+}
+
+img#weathericon {
+  width: 100px;
+}
+
 /*-------- discover.html main -------*/
 .discover-grid {
   display: grid;
