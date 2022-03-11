@@ -424,7 +424,7 @@ form label.top input:required:valid {
 }
 
 /* grid view */
-.cards {
+div .cards.gridview {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -459,20 +459,17 @@ form label.top input:required:valid {
 
 /* list view */
 
-.listview.dicard {
+.listview .dicard {
   display: none;
 }
-.listView.bilogo {
+.listView .dicard img {
   display: none;
 }
 
 .listview.dicard h2 {
   display: block;
 }
-/* .listview.dicard {
-  padding: 0.5rem;
-  text-align: start;
-} */
+
 .listview h2 {
   font-size: 20px;
 }
@@ -483,7 +480,11 @@ form label.top input:required:valid {
 }
 
 .listview .dicard:nth-of-type(even) {
-  background-color: #cbccc7;
+  background-color: #f2e1d3s;
+}
+
+.listview .dicard img.dilogo {
+  display: none;
 }
 
 /*-------- footer -------*/
