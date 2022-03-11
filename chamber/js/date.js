@@ -16,20 +16,19 @@ datefield.innerHTML = `<em>${fulldate}</em>`;
 // datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 /*form date*/
-const formdate = new Date();
-let date =
-  formdate.getFullYear() +
-  "-" +
-  (formdate.getMonth() + 1) +
-  "-" +
-  formdate.getDate(); /*getMonth starts in 0 that is why we add 1 to show the correct number of the month*/
-let time =
-  formdate.getHours() +
+//Get date and time
+var datetime =
+  "Last Sync: " +
+  d.getDate() +
+  "/" +
+  (d.getMonth() + 1) +
+  "/" +
+  d.getFullYear() +
+  " || " +
+  d.getHours() +
   ":" +
-  formdate.getMinutes() +
+  d.getMinutes() +
   ":" +
-  formdate.getSeconds();
-let dateTime = date + " " + time;
-console.log(dateTime);
-
-document.querySelector("#formdate").innerHTML = dateTime;
+  d.getSeconds();
+console.log(datetime);
+document.getElementById("formdate").value = datetime;
