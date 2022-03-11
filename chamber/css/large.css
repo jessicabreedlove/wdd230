@@ -166,4 +166,9 @@
   #listBtn {
     margin: 3px;
   }
+
+  #businessHeadline {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
