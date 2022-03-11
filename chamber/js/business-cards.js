@@ -16,15 +16,15 @@ fetch(requestURL)
 function displayBusiness(business) {
   // Create elements to add to the document
   let card = document.createElement("section");
+  card.setAttribute("class", "dicard");
   let h2 = document.createElement("h2");
   let p = document.createElement("p");
+  p.setAttribute("class", "diaddress");
   let p1 = document.createElement("p");
+  p1.setAttribute("class", "diphone");
   let p2 = document.createElement("p");
+  p2.setAttribute("class", "diwebpage");
   let logo = document.createElement("img");
-
-  p.setAttribute("class", "address");
-  p1.setAttribute("class", "phone");
-  p2.setAttribute("class", "webpage");
 
   h2.textContent = `${business.name}`;
   p.innerHTML = `${business.address}</br>${business.city}, ${business.state} ${business.zip}`;
@@ -35,7 +35,7 @@ function displayBusiness(business) {
   logo.setAttribute("src", business.imageurl);
   logo.setAttribute("alt", `logo of ${business.name}}`);
   logo.setAttribute("loading", "lazy");
-  logo.setAttribute("class", "logo");
+  logo.setAttribute("class", "bilogo");
 
   // Add/append the section(card) with the h2 element
   card.appendChild(logo);

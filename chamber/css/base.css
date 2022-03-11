@@ -424,7 +424,7 @@ form label.top input:required:valid {
 }
 
 /* grid view */
-div .cards.gridView {
+.cards {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -433,7 +433,7 @@ div .cards.gridView {
   background-color: #606c38;
 }
 
-section.gridView {
+.dicard {
   border: 2px #283618 solid;
   border-collapse: collapse;
   background-color: #f7f0e3;
@@ -441,31 +441,49 @@ section.gridView {
   box-shadow: 0 0 30px #283618;
 }
 
-img.logo {
+.dicard img {
   width: 80px;
 }
 
-/* .gridView img.logo {
-  display: block;
-  width: 80px;
-}
-
-.gridView p.address {
+.gridview.dicard.diaddress {
   display: block;
 }
 
-.gridView section p.phone {
+.gridview.dicard.diphone {
   display: block;
 }
 
-.gridView section p.webpage {
+.gridview.dicard.diwebpage {
   display: block;
-} */
+}
 
 /* list view */
 
-.listview section p {
+.listview.dicard {
   display: none;
+}
+.listView.bilogo {
+  display: none;
+}
+
+.listview.dicard h2 {
+  display: block;
+}
+/* .listview.dicard {
+  padding: 0.5rem;
+  text-align: start;
+} */
+.listview h2 {
+  font-size: 20px;
+}
+.listview .dicard {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: left;
+}
+
+.listview .dicard:nth-of-type(even) {
+  background-color: #cbccc7;
 }
 
 /*-------- footer -------*/
