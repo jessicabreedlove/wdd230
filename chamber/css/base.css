@@ -424,7 +424,7 @@ form label.top input:required:valid {
 }
 
 /* grid view */
-div .cards.gridview {
+.cards.gridview {
   text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));

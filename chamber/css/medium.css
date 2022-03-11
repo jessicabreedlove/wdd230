@@ -169,4 +169,16 @@
   .join-grid {
     display: block;
   }
+
+  /* Directory cards */
+
+  .cards.listview {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
+  }
+
+  .listview .dicard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
