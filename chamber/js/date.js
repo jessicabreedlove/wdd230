@@ -14,21 +14,3 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 // datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
-
-/*form date*/
-//Get date and time
-var datetime =
-  "Last Sync: " +
-  d.getDate() +
-  "/" +
-  (d.getMonth() + 1) +
-  "/" +
-  d.getFullYear() +
-  " || " +
-  d.getHours() +
-  ":" +
-  d.getMinutes() +
-  ":" +
-  d.getSeconds();
-console.log(datetime);
-document.getElementById("formdate").value = datetime;
