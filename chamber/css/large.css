@@ -151,4 +151,19 @@
   .join-grid {
     display: block;
   }
+
+  #gridBtn {
+    margin: 3px;
+    background-color: #f7f0e3;
+  }
+
+  .display-btns {
+    background-color: #283618;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  #listBtn {
+    margin: 3px;
+  }
 }

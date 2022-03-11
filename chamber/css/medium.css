@@ -184,13 +184,24 @@
 
   .listview .dicard h2 {
     margin-left: 20px;
+    align-self: center;
   }
 
   .listview .dicard p.diwebpage {
     margin-right: 20px;
+    align-self: center;
   }
 
   .listview .dicard p.diaddress {
     margin-right: 75px;
+    align-self: center;
+  }
+
+  .listview .dicard p.diphone {
+    align-self: center;
+  }
+
+  .listview .dicard p {
+    margin: 3% 0 3% 0;
   }
 }
