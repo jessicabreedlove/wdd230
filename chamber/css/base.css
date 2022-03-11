@@ -433,7 +433,7 @@ form label.top input:required:valid {
   background-color: #606c38;
 }
 
-.dicard {
+.gridview .dicard {
   border: 2px #283618 solid;
   border-collapse: collapse;
   background-color: #f7f0e3;
@@ -466,7 +466,7 @@ form label.top input:required:valid {
   display: none;
 }
 
-.listview.dicard h2 {
+.listview .dicard h2 {
   display: block;
 }
 

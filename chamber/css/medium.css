@@ -181,4 +181,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  .listview .dicard h2 {
+    margin-left: 20px;
+  }
+
+  .listview .dicard p.diwebpage {
+    margin-right: 20px;
+  }
+
+  .listview .dicard p.diaddress {
+    margin-right: 75px;
+  }
 }
