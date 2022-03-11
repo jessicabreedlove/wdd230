@@ -441,7 +441,11 @@ section.gridView {
   box-shadow: 0 0 30px #283618;
 }
 
-.gridView img {
+img.logo {
+  width: 80px;
+}
+
+/* .gridView img.logo {
   display: block;
   width: 80px;
 }
@@ -456,7 +460,7 @@ section.gridView {
 
 .gridView section p.webpage {
   display: block;
-}
+} */
 
 /* list view */
 
