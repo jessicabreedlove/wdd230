@@ -226,4 +226,25 @@
   .listview .dicard p {
     margin: 3% 0 3% 0;
   }
+
+  .contact-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+  }
+
+  .map {
+    width: 100%;
+    height: "300";
+    border: 0;
+  }
+
+  /* #sendBtn {
+  } */
 }
