@@ -10,8 +10,17 @@ fetch(requestURL)
     //uses json() method
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const spotlight = jsonObject["business"];
-    spotlight.forEach(displaySpotlight);
+    // spotlight.forEach(displaySpotlight);
+    randomNum = getRandomInt(0, 11);
+    displaySpotlight(spotlight[4]);
   });
+
+//generate a random number
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.floor() * (max - min + 1) + min);
+}
 
 function displaySpotlight(spotlight) {
   let div1 = document.createElement("div");
@@ -19,19 +28,21 @@ function displaySpotlight(spotlight) {
   let spotlighth3 = document.createElement("h3");
   let spotlightimg = document.createElement("img");
   let divcontact = document.createElement("spotlight-contact");
-  let pemail = document.createElement("p");
   let pphone = document.createElement("p");
   let psite = document.createElement("p");
+
+  spotlighth3.textContent = `${spotlight.name}`;
+  pphone.innerHTML = `${spotlight.phone}`;
+  psite.innerHTML = `${spotlight.website}`;
 
   spotlightimg.setAttribute("src", spotlight.imageurl);
   spotlightimg.setAttribute("alt", `logo of ${spotlight.name}}`);
   spotlightimg.setAttribute("loading", "lazy");
-  spotlightimg.setAttribute("class", "dilogo");
+  spotlightimg.setAttribute("class", "spotlightlogo");
 
   div1.appendChild(spotlighth3);
   div1.appendChild(spotlightimg);
   div1.appendChild(divcontact);
-  divcontact.appendChild(pemail);
   divcontact.appendChild(pphone);
   divcontact.appendChild(psite);
 

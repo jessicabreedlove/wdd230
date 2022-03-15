@@ -222,12 +222,7 @@ main ul {
   list-style: none;
 }
 
-.spotlight-1 {
-  padding: 20px;
-}
-
-.spotlight-2 {
-  border-top: solid #bc6c25 2px;
+.spotlights > div {
   padding: 20px;
 }
 
@@ -235,7 +230,7 @@ main ul {
   display: none;
 }
 
-.spotlight-3 {
+.spotlights:nth-child(3) {
   display: none;
 }
 
