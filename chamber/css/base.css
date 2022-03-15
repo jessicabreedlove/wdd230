@@ -230,7 +230,7 @@ main ul {
   display: none;
 }
 
-.spotlights:nth-child(3) {
+.spotlight-1:nth-child(2) {
   display: none;
 }
 
