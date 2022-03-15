@@ -12,7 +12,9 @@ fetch(requestURL)
     const spotlight = jsonObject["business"];
     // spotlight.forEach(displaySpotlight);
     randomNum = getRandomInt(0, 11);
-    displaySpotlight(spotlight[4]);
+    displaySpotlight(spotlight[0]);
+    displaySpotlight(spotlight[1]);
+    displaySpotlight(spotlight[2]);
   });
 
 //generate a random number
