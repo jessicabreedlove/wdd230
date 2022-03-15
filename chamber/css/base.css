@@ -435,7 +435,7 @@ form label.top input:required:valid {
   width: 80px;
 }
 
-.gridview.dicard.diaddress {
+.gridview p.diaddress {
   display: block;
 }
 

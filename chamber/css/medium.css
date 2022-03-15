@@ -281,17 +281,19 @@
     background-color: #f7f0e3;
     padding: 10px;
     box-shadow: 0 0 30px #283618;
-    text-align: cener;
+    text-align: center;
+    display: block;
   }
 
-  .gridview .dicard img {
-    display: block;
+  .gridview img.dilogo {
+    display: inline;
     width: 80px;
   }
 
-  .gridview.dicard.diaddress {
+  .gridview p.diaddress {
     display: block;
     margin: 0;
+    margin-right: 0px;
   }
 
   .gridview.dicard.diphone {
