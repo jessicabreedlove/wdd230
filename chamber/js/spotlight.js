@@ -14,7 +14,7 @@ fetch(requestURL)
     let random1 = Math.floor(Math.random() * (11 - 0 + 1)) + 0;
     let random2 = Math.floor(Math.random() * (11 - 0 + 1)) + 0;
     let random3 = Math.floor(Math.random() * (11 - 0 + 1)) + 0;
-    if (random1 !== random2 && random2 !== random3) {
+    if (random1 !== random2 && random2 !== random3 && random1 !== random3) {
       displaySpotlight(spotlight[random1]);
       displaySpotlight(spotlight[random2]);
       displaySpotlight(spotlight[random3]);

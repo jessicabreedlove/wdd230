@@ -106,10 +106,6 @@
     justify-content: space-evenly;
   }
 
-  img.spotlightlogo {
-    max-width: 70%;
-  }
-
   .gallery {
     display: grid;
     grid-template-columns: 2fr 1fr;
