@@ -315,12 +315,10 @@
   .contact-info {
     display: flex;
     flex-direction: column;
-    justify-content: top;
   }
 
   .map {
     width: 100%;
-    height: "300";
-    border: 0;
+    border: #283618 solid 2px;
   }
 }
