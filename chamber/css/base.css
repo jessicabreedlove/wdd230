@@ -529,17 +529,14 @@ form label.contact-form-top input:required:valid {
   border-left: #606c38 solid 6px;
 }
 
-form legend.question {
-  padding-top: 20px;
-  padding-bottom: 5px;
-  text-align: center;
-}
-
 #sendBtn {
   margin-top: 2em;
   width: 70%;
 }
 
+label.question {
+  line-height: 2.5em;
+}
 /*-------- footer -------*/
 
 footer {
