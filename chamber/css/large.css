@@ -11,6 +11,9 @@
   header img {
     max-width: 15em;
   }
+  .socialmedia img {
+    width: 40px;
+  }
 
   header,
   nav,

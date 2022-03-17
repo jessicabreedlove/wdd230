@@ -8,11 +8,14 @@
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
-    <link rel="stylesheet" href="css/large.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Lora&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="pg.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="pg.ico" type="image/x-icon" />
     <meta
       name="description"
       content="Jessica Reece site for Pleasant Grove, UT Chamber of Commerce WDD 230"
@@ -21,102 +24,132 @@
   <body>
     <header>
       <div class="top">
-        <img class="logo"
-        src="images/pglogoblk.webp"
-        alt="PG Chamber of Commerce Logo"
-      />
-      <h1>Pleasant Grove <br><span class="byline">Chamber of Commerce</span></h1>
-      <p id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
-      <div class="social">
-        <a
-          class="socialmedia"
-          target="_blank"
-          href="https://www.instagram.com"
-          ><img
-            class="icon"
-            src="images/instagram-icon-48.png"
-            alt="instagram"
-        /></a>
+        <img
+          class="logo"
+          src="images/pglogoblk.webp"
+          alt="PG Chamber of Commerce Logo"
+        />
+        <h1>
+          Pleasant Grove <br /><span class="byline">Chamber of Commerce</span>
+        </h1>
+        <p id="banner">
+          🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+          p.m.
+        </p>
+        <div class="social">
+          <a
+            class="socialmedia"
+            target="_blank"
+            href="https://www.instagram.com"
+            ><img
+              class="icon"
+              src="images/instagram-icon-48.png"
+              alt="instagram"
+          /></a>
 
-        <a class="socialmedia" target="_blank" href="https://www.facebook.com"
-          ><img class="icon" src="images/facebook-icon-48.png" alt="facebook"
-        /></a>
-      </div>
-      
-     
-    <nav>
-      <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
-      <ul id="primaryNav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="directory.html">Directory</a></li>
-        <li><a href="discover.html">Discover</a></li>
-        <li><a href="join.html">Join</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-      </div>
-    <p class="date"></p>
+          <a class="socialmedia" target="_blank" href="https://www.facebook.com"
+            ><img class="icon" src="images/facebook-icon-48.png" alt="facebook"
+          /></a>
+        </div>
 
+        <nav>
+          <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+          <ul id="primaryNav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="date"></p>
     </header>
-    <main >
+    <main>
       <div class="hero grid-col-2">
-
         <picture class="hero">
-          <img src="images/hero-high-orig.webp" alt="hero in main pic"
-          sizes="50vw"
-          srcset="
-            images/hero-medium.webp 200w,
-            images/hero-medium-big.jpg 800w,
-            images/hero-high.webp 1100w
-          ">
-          <button id="joinBtn">Join the Chamber</button>
+          <img
+            src="images/hero-high-orig.webp"
+            alt="hero in main pic"
+            sizes="50vw"
+            srcset="
+              images/hero-medium.webp     200w,
+              images/hero-medium-big.jpg  800w,
+              images/hero-high.webp      1100w
+            "
+          />
         </picture>
+        <button id="joinBtn">Join the Chamber</button>
       </div>
       <div class="event grid-col-1">
-        <h2>Ribbon Cutting</h3>
+        <h2>Ribbon Cutting</h2>
         <picture>
-          <img src="images/icons8-ribbon-64.png" alt="ribbon icon">
+          <img src="images/icons8-ribbon-64.png" alt="ribbon icon" />
         </picture>
-        <p>Join us for the grand opening of the new Pleasant Grove book exchange!</p>
+        <p>
+          Join us for the grand opening of the new Pleasant Grove book exchange!
+        </p>
       </div>
       <div class="weather grid-col-1">
-        <h3>Pleasant Grove Weather</h3>
-        <figure><img src="" alt="" id="weathericon" />  <figcaption id="weathercap"></figcaption></figure>
-        <p><q>Temperature: </q><span id="temp"></span>&deg;F<br></p>
-        <p><q>Wind Speed: </q><span id="speed"></span> mph<br></p>
+        <h2>Pleasant Grove Weather</h2>
+        <figure>
+          <img alt="weather icon" id="weathericon" />
+          <figcaption id="weathercap"></figcaption>
+        </figure>
+        <p><q>Temperature: </q><span id="temp"></span>&deg;F<br /></p>
+        <p><q>Wind Speed: </q><span id="speed"></span> mph<br /></p>
         <p><q>Wind Chill: </q><span id="wchill"></span></p>
         <p><q>Humidity: </q><span id="humid"></span>%</p>
       </div>
-      <div class="news grid-col-2"><h3>Pleasant Grove News</h3>
-      <p>Pleasant Grove rated #1 as Utah's friendliest city!<br>That's right folks, come to beautiful Pleasant Grove to make new friends and feel like home. Sherrie Cando, local resident says she "never felt so happy with her community".</p></div>
+      <div class="news grid-col-2">
+        <h2>Pleasant Grove News</h2>
+        <p>
+          Pleasant Grove rated #1 as Utah's friendliest city!<br />That's right
+          folks, come to beautiful Pleasant Grove to make new friends and feel
+          like home. Sherrie Cando, local resident says she "never felt so happy
+          with her community".
+        </p>
+      </div>
       <div class="join grid-col-1">
-      <button id="join2Btn">Join</button>
-      <p>Discover how the chamber of commerce can benefit you and your organization!</p>
+        <button id="join2Btn">Join</button>
+        <p>
+          Discover how the chamber of commerce can benefit you and your
+          organization!
+        </p>
       </div>
-      <div class="spotlights">
-      </div>
-        
-</div>
+      <div class="spotlights"></div>
     </main>
     <footer>
-        <img
+      <img
         src="images/pleasant-grove-logo-new2.png"
         alt="PG Chamber of Commerce Logo"
       />
       <div class="contact">
-<p><span class="address">Pleasant Grove Chamber of Commerce</span><br>1000 N 350 E<br>
-  Pleasant Grove, UT 56789 </p></div>
-  <div class="location">  
-    <p>info@pgcommerce.org<br> +1(801) 324-5678</p>
-    <p>Location Map </p></div>
-      <div class="foot">&copy;2022 PG Chamber of Commerce | <span class="foot-name">Jessica Breedlove Reece</span> | WDD 230
-        Project<br>Weather Provided by <a target="_blank" href="https://openweathermap.org/">OpenWeatherMap</a><br>Last Modification: <span id="lastmod"></span</div>
+        <p>
+          <span class="address">Pleasant Grove Chamber of Commerce</span
+          ><br />1000 N 350 E<br />
+          Pleasant Grove, UT 56789
+        </p>
+      </div>
+      <div class="location">
+        <p>
+          info@pgcommerce.org<br />
+          +1(801) 324-5678
+        </p>
+        <p>Location Map</p>
+      </div>
+      <div class="foot">
+        &copy;2022 PG Chamber of Commerce |
+        <span class="foot-name">Jessica Breedlove Reece</span> | WDD 230
+        Project<br />Weather Provided by
+        <a target="_blank" href="https://openweathermap.org/">OpenWeatherMap</a
+        ><br />Last Modification: <span id="lastmod"></span>
+      </div>
     </footer>
     <script src="js/windchill.js"></script>
     <script src="js/nav.js"></script>
     <script src="js/date.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/spotlight.js"></script>
-
   </body>
 </html>

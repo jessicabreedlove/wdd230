@@ -7,6 +7,14 @@
     grid-gap: 5px;
   }
 
+  div.top h1 {
+    font-size: 30px;
+  }
+
+  .socialmedia img {
+    width: 25px;
+  }
+
   #banner {
     font-size: 18px;
     top: 135px;
