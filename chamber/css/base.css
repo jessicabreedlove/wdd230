@@ -426,6 +426,29 @@ form label.top input:required:valid {
   color: #bc6c25;
 }
 
+/* load view */
+.cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 5px;
+  border: 10px solid #606c38;
+  background-color: #606c38;
+}
+
+.dicard {
+  border: 2px #283618 solid;
+  border-collapse: collapse;
+  background-color: #f7f0e3;
+  padding: 10px;
+  box-shadow: 0 0 30px #283618;
+}
+
+.dicard img {
+  width: 80px;
+  max-width: 100%;
+}
+
 /* grid view */
 .cards.gridview {
   text-align: center;
@@ -462,6 +485,9 @@ form label.top input:required:valid {
 }
 
 /* list view */
+.cards.listview {
+  display: block;
+}
 
 .listview .dicard {
   display: none;
@@ -481,6 +507,8 @@ form label.top input:required:valid {
   display: grid;
   grid-template-columns: 1fr;
   text-align: left;
+  border: transparent;
+  box-shadow: none;
 }
 
 .listview .dicard:nth-of-type(even) {
