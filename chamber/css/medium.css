@@ -2,13 +2,18 @@
   main {
     grid-template-rows: repeat(auto-fit, minmax(320px, 1fr));
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    /* text-align: start; */
     padding: 5px;
     grid-gap: 5px;
   }
+  nav button {
+    margin: 0.2rem 2vw;
+    border-radius: 20px;
+    font-size: 3rem;
+  }
 
-  div.top h1 {
+  .top h1 {
     font-size: 30px;
+    background-color: transparent;
   }
 
   .socialmedia img {
