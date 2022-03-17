@@ -205,9 +205,6 @@ main picture.hero img {
 }
 
 #joinBtn {
-  position: absolute;
-  top: -50px;
-  right: 1rem;
   background-color: #bc6c25;
   font-size: 18px;
   color: black;
