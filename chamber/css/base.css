@@ -420,6 +420,12 @@ form label.top input:required:valid {
   display: block;
 }
 
+.directory-grid h1 {
+  color: white;
+  line-height: 1.2em;
+  font-size: 32px;
+}
+
 #gridBtn {
   margin: 0.2rem 2vw;
   background-color: #f7f0e3;

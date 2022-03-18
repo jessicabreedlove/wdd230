@@ -203,6 +203,10 @@
 
   /* default list view */
 
+  #businessHeadline {
+    font-size: 45px;
+  }
+
   .cards {
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax(60px, 1fr));
