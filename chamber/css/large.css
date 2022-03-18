@@ -171,4 +171,130 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+
+  /* directory */
+  /* default grid view */
+
+  .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 5px;
+    border: 10px solid #606c38;
+    background-color: #606c38;
+  }
+
+  .dicard {
+    border: 2px #283618 solid;
+    border-collapse: collapse;
+    background-color: #f7f0e3;
+    padding: 10px;
+    box-shadow: 0 0 30px #283618;
+    text-align: center;
+    display: block;
+  }
+
+  img.dilogo {
+    display: inline;
+    width: 80px;
+  }
+
+  p.diaddress {
+    display: block;
+    margin: 0;
+    margin-right: 0px;
+  }
+
+  .dicard.diphone {
+    display: block;
+    margin: 0;
+  }
+
+  .dicard.diwebpage {
+    display: block;
+    margin: 0;
+  }
+
+  .dicard:nth-of-type(even) {
+    background-color: #f7f0e3;
+  }
+
+  /* list view */
+
+  .cards.listview {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(60px, 1fr));
+    grid-template-columns: none;
+    grid-gap: 0;
+  }
+
+  .listview .dicard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .listview .dicard h2 {
+    margin-left: 20px;
+    align-self: center;
+  }
+
+  .listview .dicard p.diwebpage {
+    margin-right: 20px;
+    align-self: center;
+  }
+
+  .listview .dicard p.diaddress {
+    margin-right: 75px;
+    align-self: center;
+  }
+
+  .listview .dicard p.diphone {
+    align-self: center;
+  }
+
+  .listview .dicard p {
+    margin: 3% 0 3% 0;
+  }
+
+  /* grid view */
+
+  .cards.gridview {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 5px;
+    border: 10px solid #606c38;
+    background-color: #606c38;
+  }
+
+  .gridview .dicard {
+    border: 2px #283618 solid;
+    border-collapse: collapse;
+    background-color: #f7f0e3;
+    padding: 10px;
+    box-shadow: 0 0 30px #283618;
+    text-align: center;
+    display: block;
+  }
+
+  .gridview img.dilogo {
+    display: inline;
+    width: 80px;
+  }
+
+  .gridview p.diaddress {
+    display: block;
+    margin: 0;
+    margin-right: 0px;
+  }
+
+  .gridview.dicard.diphone {
+    display: block;
+    margin: 0;
+  }
+
+  .gridview.dicard.diwebpage {
+    display: block;
+    margin: 0;
+  }
 }
