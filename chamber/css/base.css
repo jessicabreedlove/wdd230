@@ -217,6 +217,16 @@ main picture.hero img {
   border-radius: 20px;
 }
 
+#joinBtn a {
+  text-decoration: none;
+  color: black;
+}
+
+#join2Btn a {
+  text-decoration: none;
+  color: black;
+}
+
 #join2Btn {
   background-color: #bc6c25;
   font-size: 22px;
