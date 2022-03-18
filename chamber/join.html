@@ -115,7 +115,16 @@
             Last Name*<input type="text" name="lname" required />
           </label>
           <label class="top">
-            Business Position<input
+            Business Name<input
+              type="text"
+              name="title"
+              pattern="([a-zA-Z -]+)"
+              minlength="7"
+              required
+            />
+          </label>
+          <label class="top">
+            Position Title<input
               type="text"
               name="title"
               pattern="([a-zA-Z -]+)"

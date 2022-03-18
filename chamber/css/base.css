@@ -333,11 +333,21 @@ img#weathericon {
 }
 
 .membership-level {
-  padding: 15px;
+  padding: 2px;
+}
+
+.membership-info h2 {
+  padding-top: 20px;
+}
+
+.membership-info h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
 }
 
 form {
   background-color: #f7f0e3;
+  padding-top: 10px;
 }
 
 form fieldset {
@@ -377,7 +387,7 @@ form label.top input {
 form label.sbs {
   display: block;
   padding: 0.75rem 0;
-  color: #555;
+  color: #283618;
 }
 
 form input.submitBtn {
@@ -402,7 +412,7 @@ form label.top input:required:valid {
 }
 
 /*-------- Directory -------*/
-.join-grid {
+.directory-grid {
   display: block;
 }
 
