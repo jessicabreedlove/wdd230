@@ -79,6 +79,13 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .discover-grid h1 {
+    font-size: 45px;
+  }
+
+  .discover-grid h2 {
+    font-size: 35px;
+  }
 
   footer {
     display: grid;
