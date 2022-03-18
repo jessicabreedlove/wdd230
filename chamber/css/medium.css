@@ -38,6 +38,14 @@
     grid-column: 1/7;
   }
 
+  #joinBtn {
+    position: absolute;
+    top: 1050px;
+    right: 150px;
+    padding: 1em;
+    font-size: 22px;
+  }
+
   .news {
     grid-row: 2/3;
     grid-column: 1/7;
