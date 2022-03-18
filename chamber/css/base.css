@@ -550,8 +550,17 @@ form label.top input:required:valid {
   color: white;
 }
 
+.contact-grid h3 {
+  margin-bottom: 2px;
+}
+
 .contact-info {
   padding: 5px;
+}
+
+.contact-social img.icon {
+  width: 50px;
+  padding-top: 5px;
 }
 
 form label.contact-form-top,
@@ -585,7 +594,7 @@ form label.contact-form-top input:required:valid {
 
 #sendBtn {
   margin-top: 2em;
-  width: 70%;
+  width: 175px;
 }
 
 label.question {
