@@ -1,0 +1,52 @@
+/* foundation */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #354f52;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Bitter", serif;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+}
+
+img#logoTop {
+  width: 200px;
+}
+
+.header-name {
+  font-size: 20px;
+}
+
+.banner {
+  background-color: #84a98c;
+  display: block;
+  padding: 10px;
+  border: solid 2px #52796f;
+}
