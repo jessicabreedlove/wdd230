@@ -34,6 +34,8 @@ header {
 .top {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
 }
 
 img#logoTop {
@@ -49,4 +51,7 @@ img#logoTop {
   display: block;
   padding: 10px;
   border: solid 2px #52796f;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
 }
