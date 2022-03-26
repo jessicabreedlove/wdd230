@@ -42,11 +42,13 @@ header {
   font-family: "Raleway", sans-serif;
   margin-left: 2%;
   margin-right: 2%;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 
 img#logoTop {
   width: 100px;
-  margin-left: -10px;
+  border: solid 2px #52796f;
 }
 
 .header-name {
@@ -127,6 +129,7 @@ footer {
   display: block;
   text-align: center;
   color: white;
+  margin-bottom: 5px;
 }
 
 #logoBottom {
@@ -147,4 +150,13 @@ p.footer-name {
 /* index main */
 .index-main {
   background-color: #cad2c5;
+}
+
+#comeStayIndexBtn {
+  border-radius: 10px;
+  border-collapse: collapse;
+  font-size: 2rem;
+  background-color: #2f3e46;
+  color: white;
+  font-family: "Raleway", sans-serif;
 }
