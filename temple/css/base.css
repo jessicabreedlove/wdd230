@@ -23,6 +23,8 @@ h1 {
 
 p {
   font-family: "Bitter", serif;
+  font-size: 18px;
+  font-weight: 100;
 }
 
 /* header */
@@ -121,6 +123,26 @@ nav ul.open {
 }
 
 /* footer */
+footer {
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+#logoBottom {
+  width: 100px;
+  border: solid 2px #52796f;
+}
+
+p.footer-name {
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+
+.references {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
 
 /* index main */
 .index-main {
