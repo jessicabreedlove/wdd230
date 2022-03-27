@@ -59,7 +59,15 @@
       <button id="comeStayIndexBtn">Come Stay With Us!</button>
       <div class="temple-highlight"></div>
       <div class="weather">
-        <p>place holder for weather info that is coming via API</p>
+        <h2>Bethesda, MD Weather</h2>
+        <figure>
+          <img alt="weather icon" id="weathericon" />
+          <figcaption id="weathercap"></figcaption>
+        </figure>
+        <p><q>Temperature: </q><span id="temp"></span>&deg;F<br /></p>
+        <p><q>Wind Speed: </q><span id="speed"></span> mph<br /></p>
+        <p><q>Wind Chill: </q><span id="wchill"></span></p>
+        <p><q>Humidity: </q><span id="humid"></span>%</p>
       </div>
       <div class="social-media">
         <p>place holder for weather info that is coming via API</p>
@@ -81,12 +89,16 @@
       <div class="references">
         <span
           >&copy;2022 Jessica Breedlove Reece<br />
-          Last Modification: <span id="lastmod"></span
-        ></span>
+          Last Modification: <span id="lastmod"></span><br />Weather Provided by
+          <a target="_blank" href="https://openweathermap.org/"
+            >OpenWeatherMap</a
+          ></span
+        >
       </div>
     </footer>
     <script src="js/nav.js"></script>
     <script src="js/date.js"></script>
     <script src="js/highlight.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
