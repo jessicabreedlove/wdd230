@@ -10,8 +10,8 @@ fetch(requestURL)
     //uses json() method
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const temple = jsonObject["temples"];
-    // temple.forEach(displaytemple);
-    let random1 = Math.floor(Math.random() * (11 - 0 + 1)) + 0;
+    // temple.forEach(displayTemple);
+    let random1 = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
     displayTemple(temple[random1]);
   });
 
@@ -81,5 +81,5 @@ function displayTemple(temple) {
   divhistory.appendChild(pdedicated);
   divhistory.appendChild(prdedicated);
 
-  document.querySelector("div.temples").appendChild(divhighlight);
+  document.querySelector("div.temple-highlight").appendChild(divhighlight);
 }
