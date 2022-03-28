@@ -35,7 +35,6 @@ function displayTemple(temple) {
   let pdist = document.createElement("p");
   let pannounced = document.createElement("p");
   let pgroundb = document.createElement("p");
-  let pdedicated = document.createElement("p");
   let prdedicated = document.createElement("p");
   let pordinances = document.createElement("p");
   let pphase = document.createElement("p");
@@ -52,8 +51,6 @@ function displayTemple(temple) {
   pdist.textContent = `${temple.distribution}`;
   pannounced.innerHTML = `Announced: ${temple.announced}`;
   pgroundb.innerHTML = `Groundbreaking: ${temple.groundbreaking}`;
-  pdedicated.innerHTML = `Dedicated: ${temple.dedicated}`;
-  prdedicated.innerHTML = `Rededicated: ${temple.rededicated}`;
   pordinances.innerHTML = `${temple.ordinances}`;
   pschedule.innerHTML = `${temple.schedule}`;
   pclosures.innerHTML = `Closures: ${temple.closures}`;
@@ -83,7 +80,6 @@ function displayTemple(temple) {
   divhighlight.appendChild(divhistory);
   divhistory.appendChild(pannounced);
   divhistory.appendChild(pgroundb);
-  divhistory.appendChild(pdedicated);
   divhistory.appendChild(prdedicated);
 
   document.querySelector("div.temple-highlight").appendChild(divhighlight);

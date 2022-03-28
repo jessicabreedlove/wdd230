@@ -182,3 +182,7 @@ img#weathericon {
   width: 100px;
   max-width: 100%;
 }
+
+.social-media a {
+  text-decoration: none;
+}
