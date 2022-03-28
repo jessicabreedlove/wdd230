@@ -94,7 +94,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #52796f;
+  color: black;
+  font-weight: 700;
 }
 
 nav ul li.active a {
@@ -145,6 +147,10 @@ p.footer-name {
 .references {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
+}
+
+footer a {
+  color: white;
 }
 
 /* index main */
