@@ -102,6 +102,10 @@ nav ul li a:hover {
   font-weight: 700;
 }
 
+ul li:hover ul {
+  display: block;
+}
+
 nav ul li.active a {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
