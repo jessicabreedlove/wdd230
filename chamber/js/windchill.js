@@ -1,8 +1,8 @@
 /*
-Pleasant Grove Utah Weather info-- API
-"id": 5779816,
-        "name": "Pleasant Grove",
-        "state": "UT",
+Bethesda, MD Weather info-- API
+"id": 4348599,
+        "name": "Bethesda",
+        "state": "MD",
         "country": "US",
         "coord": {
             "lon": -111.738541,
@@ -10,7 +10,7 @@ Pleasant Grove Utah Weather info-- API
 */
 
 const apiURL =
-  "https://api.openweathermap.org/data/2.5/weather?id=5779816&appid=f3c723af6991221a76f6d1976bbfd2c7&units=imperial";
+  "https://api.openweathermap.org/data/2.5/weather?id=4348599&appid=f3c723af6991221a76f6d1976bbfd2c7&units=imperial";
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
