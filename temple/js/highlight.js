@@ -28,6 +28,7 @@ function displayTemple(temple) {
   let divschedule = document.createElement("div");
   let pphone = document.createElement("p");
   let psite = document.createElement("p");
+  let asite = document.createElement("a");
   let pclothing = document.createElement("p");
   let pcafeteria = document.createElement("p");
   let phousing = document.createElement("p");
@@ -42,19 +43,20 @@ function displayTemple(temple) {
   let pclosures = document.createElement("p");
   // text content and inner html
   templeName.textContent = `${temple.name}`;
-  pphone.innerHTML = `${temple.phone}`;
-  psite.innerHTML = `${temple.website}`;
+  pphone.innerHTML = `Phone: ${temple.phone}`;
+  psite.innerHTML = `${temple.name} Website`;
+  asite.setAttribute = ("href", temple.website);
   pclothing.textContent = `${temple.clothing}`;
   pcafeteria.textContent = `${temple.cafeteria}`;
   phousing.textContent = `${temple.patronhousing}`;
   pdist.textContent = `${temple.distribution}`;
-  pannounced.textContent = `${temple.announced}`;
-  pgroundb.textContent = `${temple.groundbreaking}`;
-  pdedicated.textContent = `${temple.dedicated}`;
-  prdedicated.textContent = `${temple.rededicated}`;
+  pannounced.innerHTML = `Announced: ${temple.announced}`;
+  pgroundb.innerHTML = `Groundbreaking: ${temple.groundbreaking}`;
+  pdedicated.innerHTML = `Dedicated: ${temple.dedicated}`;
+  prdedicated.innerHTML = `Rededicated: ${temple.rededicated}`;
   pordinances.innerHTML = `${temple.ordinances}`;
   pschedule.innerHTML = `${temple.schedule}`;
-  pclosures.innerHTML = `${temple.closures}`;
+  pclosures.innerHTML = `Closures: ${temple.closures}`;
   // img stuff
   templeimg.setAttribute("src", temple.img);
   templeimg.setAttribute("alt", `logo of ${temple.name}}`);
@@ -66,6 +68,7 @@ function displayTemple(temple) {
   divhighlight.appendChild(divcontact);
   divcontact.appendChild(pphone);
   divcontact.appendChild(psite);
+  asite.appendChild(psite);
   divhighlight.appendChild(divordinances);
   divordinances.appendChild(pphase);
   divordinances.appendChild(pordinances);
@@ -75,7 +78,9 @@ function displayTemple(temple) {
   divservices.appendChild(pcafeteria);
   divservices.appendChild(phousing);
   divservices.appendChild(pdist);
+  divhighlight.appendChild(divschedule);
   divschedule.appendChild(pclosures);
+  divhighlight.appendChild(divhistory);
   divhistory.appendChild(pannounced);
   divhistory.appendChild(pgroundb);
   divhistory.appendChild(pdedicated);
