@@ -163,8 +163,14 @@ footer a {
   text-align: center;
 }
 
+.index-photos {
+  display: flex;
+  flex-direction: column;
+}
+
 .index-photo {
   position: relative;
+  width: 100%;
 }
 
 #comeStayIndexBtn {

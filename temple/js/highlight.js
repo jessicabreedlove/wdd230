@@ -41,7 +41,7 @@ function displayTemple(temple) {
   let pschedule = document.createElement("p");
   let pclosures = document.createElement("p");
   // text content and inner html
-  templeName.textContent = `${temple.name}`;
+  templeName.innerHTML = `${temple.name}`;
   pphone.innerHTML = `Phone: ${temple.phone}`;
   psite.innerHTML = `${temple.name}`;
   // asite.setAttribute = ("href", `"${temple.website}"`);
