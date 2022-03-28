@@ -44,8 +44,8 @@ function displayTemple(temple) {
   // text content and inner html
   templeName.textContent = `${temple.name}`;
   pphone.innerHTML = `Phone: ${temple.phone}`;
-  psite.innerHTML = `${temple.name} Website`;
-  asite.setAttribute = ("href", temple.website);
+  psite.innerHTML = `${temple.name}`;
+  // asite.setAttribute = ("href", `"${temple.website}"`);
   pclothing.textContent = `${temple.clothing}`;
   pcafeteria.textContent = `${temple.cafeteria}`;
   phousing.textContent = `${temple.patronhousing}`;
@@ -68,7 +68,7 @@ function displayTemple(temple) {
   divhighlight.appendChild(divcontact);
   divcontact.appendChild(pphone);
   divcontact.appendChild(psite);
-  asite.appendChild(psite);
+  // asite.appendChild(psite);
   divhighlight.appendChild(divordinances);
   divordinances.appendChild(pphase);
   divordinances.appendChild(pordinances);
