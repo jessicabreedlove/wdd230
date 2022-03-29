@@ -26,10 +26,7 @@ function displayTemple(temple) {
   let divschedule = document.createElement("div");
   let pphone = document.createElement("p");
   let psite = document.createElement("a");
-  let pclothing = document.createElement("p");
-  let pcafeteria = document.createElement("p");
-  let phousing = document.createElement("p");
-  let pdist = document.createElement("p");
+  let pservices = document.createElement("p");
   let pannounced = document.createElement("p");
   let pgroundb = document.createElement("p");
   let prdedicated = document.createElement("p");
@@ -42,15 +39,12 @@ function displayTemple(temple) {
   pphone.innerHTML = `Phone: ${temple.phone}`;
   psite.innerHTML = `${temple.name} Website`;
   psite.setAttribute("href", temple.website);
-  pclothing.textContent = `${temple.clothing}`;
-  pcafeteria.textContent = `${temple.cafeteria}`;
-  phousing.textContent = `${temple.patronhousing}`;
-  pdist.textContent = `${temple.distribution}`;
+  pservices.innerHTML = `Services:<br/>${temple.clothing}<br/>${temple.cafeteria}<br/>${temple.patronhousing}<br/>${temple.distribution}`;
   pannounced.innerHTML = `Announced: ${temple.announced}`;
   pgroundb.innerHTML = `Groundbreaking: ${temple.groundbreaking}`;
-  pordinances.innerHTML = `${temple.ordinances}`;
+  pordinances.innerHTML = `Ordinances:<br/>${temple.ordinances}`;
   pschedule.innerHTML = `${temple.schedule}`;
-  pclosures.innerHTML = `Closures: ${temple.closures}`;
+  pclosures.innerHTML = `Closures:<br/>${temple.closures}`;
   // img stuff
   templeimg.setAttribute("src", temple.img);
   templeimg.setAttribute("alt", `logo of ${temple.name}}`);
@@ -68,10 +62,7 @@ function displayTemple(temple) {
   divordinances.appendChild(pordinances);
   divordinances.appendChild(pschedule);
   card.appendChild(divservices);
-  divservices.appendChild(pclothing);
-  divservices.appendChild(pcafeteria);
-  divservices.appendChild(phousing);
-  divservices.appendChild(pdist);
+  divservices.appendChild(pservices);
   card.appendChild(divschedule);
   divschedule.appendChild(pclosures);
   card.appendChild(divhistory);
