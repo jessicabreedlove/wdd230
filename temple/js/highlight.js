@@ -24,13 +24,14 @@ function displayTemple(temple) {
   let divcontact = document.createElement("div");
   let divordinances = document.createElement("div");
   let pphone = document.createElement("p");
-  let psite = document.createElement("p");
+  let psite = document.createElement("a");
   let pordinances = document.createElement("p");
   let pphase = document.createElement("p");
   // text content and inner html
-  templeName.innerHTML = `${temple.name}`;
+  templeName.innerHTML = temple.name;
   pphone.innerHTML = `Phone: ${temple.phone}`;
-  psite.innerHTML = `${temple.name}`;
+  psite.innerHTML = `${temple.name} Website`;
+  psite.setAttribute("href", temple.website);
   // asite.setAttribute = ("href", `"${temple.website}"`);
   pordinances.innerHTML = `${temple.ordinances}`;
   pphase.innerHTML = temple.phase;

@@ -13,6 +13,11 @@ body {
   background-color: #354f52;
 }
 
+main a {
+  text-decoration: none;
+  color: white;
+}
+
 img {
   max-width: 100%;
 }
