@@ -1,6 +1,6 @@
 const requestURL =
   "https://jessicabreedlove.github.io/wdd230/temple/data/data.json";
-const highlight = document.querySelector(".temple-highlight");
+const card = document.querySelector(".temple-cards");
 
 fetch(requestURL)
   .then(function (response) {
@@ -10,15 +10,13 @@ fetch(requestURL)
     //uses json() method
     console.table(jsonObject); // temporary checking for valid response and data parsing
     const temple = jsonObject["temples"];
-    // temple.forEach(displayTemple);
-    let random1 = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
-    displayTemple(temple[random1]);
+    temple.forEach(displayTemple);
   });
 
 function displayTemple(temple) {
   // make all the elements
-  let divhighlight = document.createElement("div");
-  divhighlight.setAttribute("class", "highlight");
+  let card = document.createElement("section");
+  card.setAttribute("class", "card");
   let templeName = document.createElement("h2");
   let templeimg = document.createElement("img");
   let divcontact = document.createElement("div");
@@ -27,8 +25,7 @@ function displayTemple(temple) {
   let divhistory = document.createElement("div");
   let divschedule = document.createElement("div");
   let pphone = document.createElement("p");
-  let psite = document.createElement("p");
-  let asite = document.createElement("a");
+  let psite = document.createElement("a");
   let pclothing = document.createElement("p");
   let pcafeteria = document.createElement("p");
   let phousing = document.createElement("p");
@@ -43,8 +40,8 @@ function displayTemple(temple) {
   // text content and inner html
   templeName.innerHTML = `${temple.name}`;
   pphone.innerHTML = `Phone: ${temple.phone}`;
-  psite.innerHTML = `${temple.name}`;
-  // asite.setAttribute = ("href", `"${temple.website}"`);
+  psite.innerHTML = `${temple.name} Website`;
+  psite.setAttribute("href", temple.website);
   pclothing.textContent = `${temple.clothing}`;
   pcafeteria.textContent = `${temple.cafeteria}`;
   phousing.textContent = `${temple.patronhousing}`;
@@ -60,27 +57,27 @@ function displayTemple(temple) {
   templeimg.setAttribute("loading", "lazy");
   templeimg.setAttribute("class", "templeimg");
   // append all the children
-  divhighlight.appendChild(templeName);
-  divhighlight.appendChild(templeimg);
-  divhighlight.appendChild(divcontact);
+  card.appendChild(templeName);
+  card.appendChild(templeimg);
+  card.appendChild(divcontact);
   divcontact.appendChild(pphone);
   divcontact.appendChild(psite);
   // asite.appendChild(psite);
-  divhighlight.appendChild(divordinances);
+  card.appendChild(divordinances);
   divordinances.appendChild(pphase);
   divordinances.appendChild(pordinances);
   divordinances.appendChild(pschedule);
-  divhighlight.appendChild(divservices);
+  card.appendChild(divservices);
   divservices.appendChild(pclothing);
   divservices.appendChild(pcafeteria);
   divservices.appendChild(phousing);
   divservices.appendChild(pdist);
-  divhighlight.appendChild(divschedule);
+  card.appendChild(divschedule);
   divschedule.appendChild(pclosures);
-  divhighlight.appendChild(divhistory);
+  card.appendChild(divhistory);
   divhistory.appendChild(pannounced);
   divhistory.appendChild(pgroundb);
   divhistory.appendChild(prdedicated);
 
-  document.querySelector("div.temple-highlight").appendChild(divhighlight);
+  document.querySelector("div.temple-cards").appendChild(card);
 }

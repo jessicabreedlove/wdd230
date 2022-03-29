@@ -234,3 +234,38 @@ img#weathericon {
 .services {
   display: none;
 }
+
+/* temples page */
+
+.temples-main {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.temple-cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 5px;
+  border: 5px solid #84a98c;
+  background-color: #cad2c5;
+}
+
+.card {
+  border: 2px #2f3e46 solid;
+  border-collapse: collapse;
+  background-color: #cad2c5;
+  padding: 10px;
+  box-shadow: 0 0 30px #2f3e46;
+}
+
+.card img {
+  width: 75%;
+}
+
+.temple-intro {
+  text-align: center;
+  border: solid 2px #52796f;
+  padding: 2px;
+  color: white;
+}

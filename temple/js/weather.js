@@ -24,7 +24,6 @@ fetch(apiURL)
       jsObject.list.dt);
     const temp = (document.querySelector("#temp").textContent =
       jsObject.list.temp.day.toFixed(1));
-
     const iconsrc = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
     const wspeed = jsObject.list.speed;
