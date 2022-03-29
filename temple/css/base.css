@@ -15,7 +15,8 @@ body {
 
 main a {
   text-decoration: none;
-  color: white;
+  color: black;
+  font-family: "Raleway", sans-serif;
 }
 
 img {
@@ -193,6 +194,10 @@ footer a {
   position: absolute;
   top: 500px;
   right: 40px;
+}
+
+#comeStayIndexBtn a {
+  color: white;
 }
 
 q {

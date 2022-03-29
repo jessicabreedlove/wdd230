@@ -19,4 +19,8 @@
   .templeimg {
     max-width: 75%;
   }
+
+  .social-media img {
+    width: 80px;
+  }
 }

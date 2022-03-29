@@ -32,7 +32,6 @@ function displayTemple(temple) {
   pphone.innerHTML = `Phone: ${temple.phone}`;
   psite.innerHTML = `${temple.name} Website`;
   psite.setAttribute("href", temple.website);
-  // asite.setAttribute = ("href", `"${temple.website}"`);
   pordinances.innerHTML = `${temple.ordinances}`;
   pphase.innerHTML = temple.phase;
   // img stuff
@@ -47,7 +46,6 @@ function displayTemple(temple) {
   divcontact.appendChild(pphone);
   divcontact.appendChild(psite);
   divhighlight.appendChild(pphase);
-  // asite.appendChild(psite);
   divhighlight.appendChild(divordinances);
 
   document.querySelector("div.temple-highlight").appendChild(divhighlight);
