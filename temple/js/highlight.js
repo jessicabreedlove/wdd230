@@ -23,37 +23,17 @@ function displayTemple(temple) {
   let templeimg = document.createElement("img");
   let divcontact = document.createElement("div");
   let divordinances = document.createElement("div");
-  let divservices = document.createElement("div");
-  let divhistory = document.createElement("div");
-  let divschedule = document.createElement("div");
   let pphone = document.createElement("p");
   let psite = document.createElement("p");
-  let asite = document.createElement("a");
-  let pclothing = document.createElement("p");
-  let pcafeteria = document.createElement("p");
-  let phousing = document.createElement("p");
-  let pdist = document.createElement("p");
-  let pannounced = document.createElement("p");
-  let pgroundb = document.createElement("p");
-  let prdedicated = document.createElement("p");
   let pordinances = document.createElement("p");
   let pphase = document.createElement("p");
-  let pschedule = document.createElement("p");
-  let pclosures = document.createElement("p");
   // text content and inner html
   templeName.innerHTML = `${temple.name}`;
   pphone.innerHTML = `Phone: ${temple.phone}`;
   psite.innerHTML = `${temple.name}`;
   // asite.setAttribute = ("href", `"${temple.website}"`);
-  pclothing.textContent = `${temple.clothing}`;
-  pcafeteria.textContent = `${temple.cafeteria}`;
-  phousing.textContent = `${temple.patronhousing}`;
-  pdist.textContent = `${temple.distribution}`;
-  pannounced.innerHTML = `Announced: ${temple.announced}`;
-  pgroundb.innerHTML = `Groundbreaking: ${temple.groundbreaking}`;
   pordinances.innerHTML = `${temple.ordinances}`;
-  pschedule.innerHTML = `${temple.schedule}`;
-  pclosures.innerHTML = `Closures: ${temple.closures}`;
+  pphase.innerHTML = temple.phase;
   // img stuff
   templeimg.setAttribute("src", temple.img);
   templeimg.setAttribute("alt", `logo of ${temple.name}}`);
@@ -65,22 +45,9 @@ function displayTemple(temple) {
   divhighlight.appendChild(divcontact);
   divcontact.appendChild(pphone);
   divcontact.appendChild(psite);
+  divhighlight.appendChild(pphase);
   // asite.appendChild(psite);
   divhighlight.appendChild(divordinances);
-  divordinances.appendChild(pphase);
-  divordinances.appendChild(pordinances);
-  divordinances.appendChild(pschedule);
-  divhighlight.appendChild(divservices);
-  divservices.appendChild(pclothing);
-  divservices.appendChild(pcafeteria);
-  divservices.appendChild(phousing);
-  divservices.appendChild(pdist);
-  divhighlight.appendChild(divschedule);
-  divschedule.appendChild(pclosures);
-  divhighlight.appendChild(divhistory);
-  divhistory.appendChild(pannounced);
-  divhistory.appendChild(pgroundb);
-  divhistory.appendChild(prdedicated);
 
   document.querySelector("div.temple-highlight").appendChild(divhighlight);
 }

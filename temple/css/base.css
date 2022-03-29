@@ -165,6 +165,7 @@ footer a {
 .index-main {
   background-color: #cad2c5;
   text-align: center;
+  display: block;
 }
 
 .index-photos {

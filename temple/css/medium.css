@@ -1,8 +1,4 @@
 @media only screen and (min-width: 35rem) {
-  main p {
-    background-color: yellow;
-  }
-
   h1.header-name {
     font-size: 30px;
   }
@@ -10,9 +6,14 @@
   .sub-categories {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .sub-categories > div {
+    border: solid 2px #52796f;
   }
 
   .templeimg {
-    width: 50%;
+    max-width: 50%;
   }
 }
