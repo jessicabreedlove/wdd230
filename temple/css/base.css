@@ -219,3 +219,7 @@ img#weathericon {
 .weather {
   border-bottom: solid 2px #52796f;
 }
+
+.services {
+  display: none;
+}
