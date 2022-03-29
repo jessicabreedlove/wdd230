@@ -1,7 +1,4 @@
 @media only screen and (min-width: 64rem) {
-  main p {
-    background-color: red;
-  }
   .index-photos {
     display: flex;
     flex-direction: row;
@@ -41,5 +38,28 @@
 
   .sub:hover .submenu {
     display: block;
+  }
+
+  .sub-categories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+  }
+
+  .temple-highlight {
+    grid-column: 1/2;
+  }
+
+  .weather {
+    grid-column: 2/3;
+  }
+
+  .services {
+    grid-column: 3/4;
+    display: block;
+  }
+
+  .serviceimg {
+    max-width: 75%;
   }
 }
