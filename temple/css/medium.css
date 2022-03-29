@@ -11,6 +11,9 @@
 
   .sub-categories > div {
     border: solid 2px #52796f;
+    margin: 10px 15px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .templeimg {
