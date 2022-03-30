@@ -56,7 +56,65 @@
         </nav>
       </div>
     </header>
-    <main></main>
+    <main class="reservations-main">
+      <h2>Book Your Stay Now!</h2>
+      <form method="get" action="booked.html">
+        <fieldset>
+          <legend>Check Availability</legend>
+          <label class="top">
+            Temple Location<select name="temple">
+              <option value="">Please Select</option>
+              <option value="columbia">Columbia, SC</option>
+              <option value="orlando">Orlando, FL</option>
+              <option value="palmyra">Palmyra, NY</option>
+              <option value="philadelphia">Philadelphia, PA</option>
+            </select>
+          </label>
+          <label class="top">
+            Check in<input type="date" name="checkin" required /> 
+            Check out<input type="date" name="checkout" required /> 
+          </label>
+          <label class="top">
+            Adults<select name="adults">
+              <option value="one">1</option>
+              <option value="two">2</option>
+              <option value="three">3</option>
+              <option value="four">4</option>
+              <option value="five">5+</option>
+            </select>
+            Children<select name="children">
+              <option value="">0</option>
+              <option value="onecount">1</option>
+              <option value="twocount">2</option>
+              <option value="threecount">3+</option>
+          </label>
+        </fieldset>
+        <fieldset>  
+          <label class="room">
+            <input type="radio" name="room" value="queen">2 Queen Beds
+          </label>
+          <label class="room">
+            <input type="radio" name="room" value="king">1 King Bed
+          </label>
+          <label class="room">
+            <input type="radio" name="room" value="suite1"> 1 Room Suite
+          </label>
+          <label class="room">
+            <input type="radio" name="room" value="suite2"> 2 Room Suite
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Contact Information</legend>
+          <label class="contactbooking">
+            First Name*<input type="text" name="fname" required/>
+            Last Name*<input type="text" name="lname" required/>
+            Email*<input type="email" name="email" required/>
+            Phone*<input type="tel" name="phone" required/>
+          </label>
+        </fieldset>
+        <input type="submit" value="Book My Room" class="bookBtn">
+      </form>
+    </main>
     <footer>
       <div class="foot-chunk">
         <img
