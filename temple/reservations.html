@@ -57,7 +57,36 @@
       </div>
     </header>
     <main class="reservations-main">
-      <h2>Book Your Stay Now!</h2>
+      <div class="res-top">
+        <div class="res-imgs">
+          <picture>
+            <img
+              src="images/hotel-room.jpg"
+              alt="hotel-room"
+              sizes="50vw"
+              class="reservation-photo"
+              srcset="
+                images/hotel-room.webp      200w,
+                images/hotel-room-900.webp 1100w
+              "
+            />
+          </picture>
+          <picture>
+            <img
+              src="images/hotel-room.jpg"
+              alt="hotel-room"
+              sizes="50vw"
+              class="reservation-photo"
+              id="photo2"
+              srcset="
+                images/hotel-room.webp      200w,
+                images/hotel-room-900.webp 1100w
+              "
+            />
+          </picture>
+        </div>
+        <h2 class="headline">Book Your Stay</h2>
+      </div>
       <form method="get" action="booked.html">
         <fieldset>
           <legend>Check Availability</legend>
@@ -71,9 +100,12 @@
             </select>
           </label>
           <label class="top">
-            Check in<input type="date" name="checkin" required /> 
-            Check out<input type="date" name="checkout" required /> 
+            Check in<input type="date" name="checkin" required />
           </label>
+          <label class="top">
+            Check out<input type="date" name="checkout" required />
+          </label>
+
           <label class="top">
             Adults<select name="adults">
               <option value="one">1</option>
@@ -82,37 +114,47 @@
               <option value="four">4</option>
               <option value="five">5+</option>
             </select>
+          </label>
+          <label class="top">
             Children<select name="children">
               <option value="">0</option>
               <option value="onecount">1</option>
               <option value="twocount">2</option>
               <option value="threecount">3+</option>
+            </select>
           </label>
         </fieldset>
-        <fieldset>  
+        <fieldset>
+          <legend>Accomodations</legend>
           <label class="room">
-            <input type="radio" name="room" value="queen">2 Queen Beds
+            <input type="radio" name="room" value="queen" />2 Queen Beds
           </label>
           <label class="room">
-            <input type="radio" name="room" value="king">1 King Bed
+            <input type="radio" name="room" value="king" />1 King Bed
           </label>
           <label class="room">
-            <input type="radio" name="room" value="suite1"> 1 Room Suite
+            <input type="radio" name="room" value="suite1" /> 1 Room Suite
           </label>
           <label class="room">
-            <input type="radio" name="room" value="suite2"> 2 Room Suite
+            <input type="radio" name="room" value="suite2" /> 2 Room Suite
           </label>
         </fieldset>
         <fieldset>
           <legend>Contact Information</legend>
           <label class="contactbooking">
-            First Name*<input type="text" name="fname" required/>
-            Last Name*<input type="text" name="lname" required/>
-            Email*<input type="email" name="email" required/>
-            Phone*<input type="tel" name="phone" required/>
+            First Name*<input type="text" name="fname" required />
+          </label>
+          <label class="contactbooking">
+            Last Name*<input type="text" name="lname" required />
+          </label>
+          <label class="contactbooking">
+            Email*<input type="email" name="email" required />
+          </label>
+          <label class="contactbooking">
+            Phone*<input type="tel" name="phone" required />
           </label>
         </fieldset>
-        <input type="submit" value="Book My Room" class="bookBtn">
+        <input type="submit" value="Book My Room" class="bookBtn" />
       </form>
     </main>
     <footer>

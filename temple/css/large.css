@@ -112,4 +112,18 @@
   .serviceimg {
     max-width: 75%;
   }
+
+  .reservation-photo {
+    width: 1100px;
+  }
+
+  .res-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  #photo2 {
+    display: block;
+  }
 }

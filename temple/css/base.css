@@ -263,7 +263,7 @@ img#weathericon {
   width: 75%;
 }
 
-.temple-intro {
+.headline {
   text-align: center;
   border: solid 2px #52796f;
   padding: 2px;
@@ -276,9 +276,21 @@ img#weathericon {
   margin-left: 5px;
   margin-right: 5px;
 }
+
+.res-top {
+  text-align: center;
+  padding: 2px;
+  color: white;
+}
+
+#photo2 {
+  display: none;
+}
+
 form {
   background-color: #cad2c5;
   padding-top: 10px;
+  max-width: 900px;
 }
 
 form fieldset {
