@@ -283,6 +283,10 @@ img#weathericon {
   color: white;
 }
 
+.reservation-photo {
+  width: 100%;
+}
+
 #photo2 {
   display: none;
 }

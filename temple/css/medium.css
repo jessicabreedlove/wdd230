@@ -24,10 +24,6 @@
     width: 80px;
   }
 
-  .reservation-photo {
-    width: 100%;
-  }
-
   .reservations-main {
     display: flex;
     flex-direction: column;
