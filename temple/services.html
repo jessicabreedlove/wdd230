@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jessica Reece Temple Inn & Suites</title>
+    <title>Services</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -38,10 +38,10 @@
         <nav>
           <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
           <ul id="primaryNav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="temples.html">Temples</a></li>
             <li><a href="reservations.html">Reservations</a></li>
-            <li class="sub">
+            <li class="active" class="sub">
               <a href="services.html">Services <span>&vltri;</span></a>
               <ul class="submenu">
                 <li>
@@ -56,73 +56,61 @@
         </nav>
       </div>
     </header>
-    <main class="index-main">
-      <div class="index-photos">
+    <main class="services-main">
+      <h2>Services</h2>
+      <div>
         <picture>
-          <img
-            src="images/temples_families_mothers_youth.jpeg"
-            alt="mother with her son at the temple"
-            sizes="50vw"
-            class="index-photo"
-            srcset="
-              images/temples_families_mothers_youth-600.webp  200w,
-              images/temples_families_mothers_youth-900.webp 1100w
-            "
-          />
+          <img src="images/brek-buffet.jpg" alt="breakfast-buffet" />
         </picture>
-        <picture>
-          <img
-            src="images/bed-blue.jpg"
-            alt="mother with her son at the temple"
-            sizes="50vw"
-            class="index-photo"
-            srcset="
-              images/bed-blue-600.webp  200w,
-              images/bed-blue-900.webp 1100w
-            "
-          />
-        </picture>
+        <h3>Specialized Services</h3>
+        <ul>
+          <li>
+            Free access to changing rooms and bathroom facilities for temple
+            patrons who have traveled far and need to change to and from church
+            clothes
+          </li>
+          <li>
+            A playroom and low-cost, short-term babysitting services for the
+            children of patrons
+          </li>
+          <li>
+            Long-term stay accommodations in kitchenette suites for full-time
+            temple missionaries
+          </li>
+          <li>Temple history themed reception and sitting area</li>
+          <li>
+            A wedding reception hall that can be easily customized with a simple
+            catering menu and kitchen access for food preparation and serving
+          </li>
+          <li>
+            A family search center that supports family search and ordinance
+            work
+          </li>
+        </ul>
+        <h3>Free Amenities</h3>
+        <ul>
+          <li>Breakfast</li>
+          <li>Exercise/workout room</li>
+          <li>Indoor pool</li>
+          <li>WiFi high-speed internet access and smart TVs</li>
+          <li>Parking</li>
+          <li>Temple shuttle</li>
+          <li>Family history consultation and family ordinance card service</li>
+        </ul>
       </div>
-      <input type="submit" value="Come Stay With Us!" id="comeStayIndexBtn" action="reservations.html" />
-      </button>
-      <div class="sub-categories">
-        <div class="temple-highlight"></div>
-        <div class="weather">
-          <h2>Bethesda, MD Weather</h2>
-          <figure>
-            <img alt="weather icon" id="weathericon" />
-            <figcaption id="weathercap"></figcaption>
-          </figure>
-          <p><q>Date: </q><span id="wdate"></span></p>
-          <p><q>Temperature: </q><span id="temp"></span>&deg;F<br /></p>
-          <p><q>Wind Speed: </q><span id="speed"></span> mph<br /></p>
-          <p><q>Wind Chill: </q><span id="wchill"></span></p>
-          <p><q>Humidity: </q><span id="humid"></span>%</p>
-        </div>
-        <div class="services">
-          <h2>Services</h2>
+      <div>
+        <div>
           <picture>
-            <img
-              class="serviceimg"
-              src="images/couple-shoes.webp"
-              alt="wedding couple shoes"
-            />
+            <img src="images/couple-shoes.webp" alt="couple shoes" />
           </picture>
-          <p>
-            Check out our amazing ammenities and services!<br />We also offer
-            special accomadations for receptions and full-time temple
-            Missionaries.
-          </p>
+          <h2>Receptions</h2>
         </div>
-      </div>
-      <div class="social-media">
-        <h2>Follow us on social media!</h2>
-        <a href="https://www.instagram.com" target="_blank">
-          <img src="images/icons8-instagram-48.png" alt="instagram" />
-        </a>
-        <a href="https://www.facebook.com" target="_blank">
-          <img src="images/icons8-facebook-48.png" alt="facebook" />
-        </a>
+        <div>
+          <picture>
+            <img src="images/couple-shoes.webp" alt="couple shoes" />
+          </picture>
+          <h2>Full-time Missionaries</h2>
+        </div>
       </div>
     </main>
     <footer>
@@ -135,7 +123,6 @@
         <div class="footer-contact">
           <p><a href="contact.html">Contact Us</a></p>
           <p>Phone: 666-555-4444</p>
-          <p>Email: help@tinnsuites.com</p>
           <p>
             Temple Inn and Suites<br />4840 Montgomery Ln #320,<br />Bethesda,
             MD 20814
@@ -154,7 +141,5 @@
     </footer>
     <script src="js/nav.js"></script>
     <script src="js/date.js"></script>
-    <script src="js/highlight.js"></script>
-    <script src="js/weather.js"></script>
   </body>
 </html>
