@@ -295,6 +295,7 @@ form {
   background-color: #cad2c5;
   padding-top: 10px;
   max-width: 900px;
+  font-family: "Raleway", sans-serif;
 }
 
 form fieldset {
@@ -308,14 +309,15 @@ form legend {
   color: black;
   margin: 0 1rem;
   padding: 0 0.5rem;
+  font-weight: 600;
 }
 
 form label.top,
 form label.contactbooking {
   display: block;
   padding-top: 1rem;
-  color: #9c2c13;
-  font-size: 0.8rem;
+  color: black;
+  font-size: 18px;
 }
 
 form label.room {
@@ -337,4 +339,15 @@ form label.contactbooking input:required {
 
 form label.contactbooking input:required:valid {
   border-left: #606c38 solid 6px;
+}
+
+input.bookBtn {
+  border-radius: 10px;
+  border-collapse: collapse;
+  border: #84a98c solid 2px;
+  padding: 5px;
+  font-size: 20px;
+  color: #2f3e46;
+  margin-left: 2%;
+  margin-bottom: 2%;
 }
