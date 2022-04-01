@@ -361,11 +361,11 @@ input.bookBtn {
   padding: 2px;
 }
 
-.specialized div {
-  border-bottom: 2px solid #84a98c;
+.amenities {
   background-color: #cad2c5;
   padding-top: 5px;
   padding-left: 2%;
+  padding-right: 2%;
 }
 
 .specialized ul li {
@@ -377,4 +377,8 @@ input.bookBtn {
 }
 .s-page a {
   color: white;
+}
+
+#weddingPic2 {
+  display: none;
 }
