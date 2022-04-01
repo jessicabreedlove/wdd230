@@ -166,6 +166,10 @@ footer a {
   color: white;
 }
 
+#map {
+  max-width: 100%;
+}
+
 /* index main */
 .index-main {
   background-color: #cad2c5;
