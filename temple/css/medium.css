@@ -33,4 +33,23 @@
     align-self: center;
     width: 80%;
   }
+
+  /* Services Page */
+
+  .services-main {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .specialized {
+    text-align: center;
+  }
+
+  .amenities {
+    text-align: left;
+  }
+
+  .s-page img {
+    width: 70%;
+  }
 }

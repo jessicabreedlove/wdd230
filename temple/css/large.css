@@ -126,4 +126,28 @@
   #photo2 {
     display: block;
   }
+
+  /* services page */
+  .s-flex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .s-brek {
+    width: 100%;
+  }
+
+  .services-page {
+    display: flex;
+    align-content: space-evenly;
+  }
+
+  .s-page img {
+    width: 80%;
+  }
+
+  .s-page {
+    border: solid 2px #52796f;
+    margin-left: 2%;
+  }
 }

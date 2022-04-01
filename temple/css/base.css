@@ -351,3 +351,30 @@ input.bookBtn {
   margin-left: 2%;
   margin-bottom: 2%;
 }
+
+/* Services Page */
+
+.services-main h2 {
+  text-align: center;
+  border: 2px solid #84a98c;
+  color: white;
+  padding: 2px;
+}
+
+.specialized div {
+  border-bottom: 2px solid #84a98c;
+  background-color: #cad2c5;
+  padding-top: 5px;
+  padding-left: 2%;
+}
+
+.specialized ul li {
+  padding-bottom: 10px;
+}
+
+.services-pages {
+  text-align: center;
+}
+.s-page a {
+  color: white;
+}
