@@ -204,4 +204,44 @@
     padding-left: 30%;
     padding-right: 30%;
   }
+
+  /* Mission Page */
+
+  .mission-flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mission-1,
+  .mission-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .mission-pic {
+    width: 50%;
+  }
+
+  .mission-main {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom: 2px solid #cad2c5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mission-main h2 {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  .mission-flex p {
+    text-align: center;
+  }
+
+  .mission-flex {
+    max-width: 80%;
+  }
 }

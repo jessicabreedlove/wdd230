@@ -413,3 +413,21 @@ input.bookBtn {
   font-size: 18px;
   font-family: "Raleway", sans-serif;
 }
+
+/* Mission Page */
+.mission-main h2 {
+  text-align: center;
+  border: 2px solid #84a98c;
+  color: white;
+  padding: 2px;
+}
+
+.mission-flex {
+  background-color: #cad2c5;
+}
+
+.mission-flex p {
+  padding-left: 2%;
+  padding-right: 2%;
+  line-height: 1.2;
+}
