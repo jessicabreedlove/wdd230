@@ -158,4 +158,25 @@
   .specialized {
     background-color: #cad2c5;
   }
+
+  /* Reception page */
+  .reception-text {
+    background-color: yellow;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .picture-1st {
+    display: flex;
+    flex-direction: row;
+    align-items: space-evenly;
+  }
+
+  .wedding {
+    width: 40%;
+  }
 }
