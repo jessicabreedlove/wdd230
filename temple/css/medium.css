@@ -54,9 +54,16 @@
   }
 
   /* Reception page */
-  .pic-1,
-  .pic-2 {
+
+  .pictures-1st,
+  .pictures-2nd {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wedding {
+    width: 70%;
   }
 }
