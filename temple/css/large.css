@@ -128,6 +128,11 @@
   }
 
   /* services page */
+  .services-main h2 {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
   .s-flex {
     display: flex;
     flex-direction: row;
@@ -144,11 +149,28 @@
 
   .s-page img {
     width: 80%;
+    border-radius: 10px;
+  }
+
+  .s-page a {
+    text-decoration: none;
+  }
+
+  .s-page h3 {
+    font-size: 22px;
+    background-color: #2f3e46;
+    padding: 10px;
+    width: 50%;
   }
 
   .s-page {
-    border: solid 2px #52796f;
     margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #52796f;
+    padding-bottom: 2%;
   }
 
   #weddingPic2 {

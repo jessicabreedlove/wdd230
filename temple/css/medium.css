@@ -47,10 +47,18 @@
 
   .amenities {
     text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   .s-page img {
     width: 70%;
+  }
+
+  .s-brek {
+    width: 75%;
   }
 
   /* Reception page */
