@@ -386,3 +386,29 @@ input.bookBtn {
 #weddingPic2 {
   display: none;
 }
+
+/* Reception Page */
+
+.receptions-main h2 {
+  text-align: center;
+  border: 2px solid #84a98c;
+  color: white;
+  padding: 2px;
+}
+
+.reception-text {
+  background-color: #cad2c5;
+  padding-top: 5px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.reception-text p {
+  text-align: center;
+}
+
+.reception-text ul li {
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
