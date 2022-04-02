@@ -388,6 +388,29 @@ input.bookBtn {
   display: none;
 }
 
+form.contact {
+  width: 100%;
+}
+
+form.contact fieldset {
+  margin: 2rem 0;
+  padding: 0.5rem 2%;
+}
+
+form.contact legend {
+  color: black;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+  font-weight: 600;
+}
+
+form.contact label.contactus {
+  display: block;
+  padding-top: 1rem;
+  color: black;
+  font-size: 18px;
+}
+
 /* Reception Page */
 
 .receptions-main h2 {
