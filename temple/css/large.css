@@ -175,6 +175,8 @@
 
   #weddingPic2 {
     display: inline-block;
+    padding-top: 2%;
+    border-radius: 10px;
   }
 
   .specialized {
