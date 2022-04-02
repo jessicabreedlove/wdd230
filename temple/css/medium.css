@@ -69,4 +69,9 @@
   }
 
   /* Mission Page */
+
+  /* Booked Page */
+  .confirmed {
+    padding: 50px;
+  }
 }
